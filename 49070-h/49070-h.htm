@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>Nuclear Clocks, by Henry Faul</title>
+<meta name="author" content="Henry Faul" />
+<link rel="coverpage" href="images/cover.jpg" />
+<link rel="schema.DC" href="http://dublincore.org/documents/1998/09/dces/" />
+<meta name="DC.Creator" content="Henry Faul (****-****)" />
+<meta name="DC.Title" content="Nuclear Clocks" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Format" content="text/html" />
+<meta name="pss.pubdate" content="1968" />
+<style type="text/css">
+large { font-size:125%; }
+sc    { font-variant:small-caps; font-style: normal; }
+/* == GLOBAL MARKUP == */
+body, table.twocol tr td  { margin-left:2em; margin-right:2em; }   /* BODY */
+.box     { border-style:double; margin-bottom:2em; max-width:28em; margin-right:auto; margin-left:auto; margin-top:2em; }
+.box p   { margin-right:1em; margin-left:1em; }
+.box dl  { margin-right:1em; margin-left:1em; }
+
+h1                { margin-top:3em; text-align:center; font-family:sans-serif; }
+div.box h1        { margin-top:1em; margin-left:.5em; }
+h2                { margin-top:2.5em; margin-bottom:1em; text-align:left; font-size:125%; font-family:sans-serif; }
+h2.c              { text-align:center; }
+h3                { margin-top:1.5em; text-align:left; font-size:112%; font-family:sans-serif; }
+h4, h5            { font-size:100%; text-align:left; clear:right; font-family:sans-serif; }
+h6                { font-size:100%; }
+h6.var            { font-size:80%; font-style:normal; }
+.titlepg          { margin-left:auto; margin-right:auto; border-style:double; clear:both; }
+span.chaptertitle { font-style:normal; display:block; text-align:center; font-size:150%; }
+.tblttl           { text-align:center; }
+.tblsttl          { text-align:center; font-variant:small-caps; }
+
+pre sub.ms { width:4em; letter-spacing:1em; }
+table.fmla { text-align:center; margin-top:0em; margin-bottom:0em; margin-left:0em; margin-right:0em; }
+table.inline, table.symbol { display: inline-table; vertical-align: middle; }
+td.cola           { text-align:left; vertical-align:100%; }
+td.colb           { text-align:justify; }
+
+p, blockquote, div.p, div.bq { text-align:justify; }                              /* PARAGRAPHS */
+div.p, div.bq, div.center   { margin-top:1em; margin-bottom:1em; }
+blockquote, .bq        { margin-left:1em; margin-right:0em; }
+.verse    { font-size:100%; }
+p.indent  {text-indent:2em; text-align:left; }
+p.tb, p.tbcenter, verse.tb, blockquote.tb      { margin-top:2em; }
+
+span.pb, div.pb, dt.pb, p.pb                                      /* PAGE BREAKS */
+{ text-align:right; float:right; margin-right:0em; clear:right; }
+div.pb { display:inline; }
+.pb, dt.pb, dl.toc dt.pb, dl.tocl dt.pb    { text-align:right; float:right; margin-left: 1.5em;
+         margin-top:.5em; margin-bottom:.5em; display:inline; text-indent:0;
+         font-size:80%; font-style:normal; font-weight:bold;
+         color:gray; border:1px solid gray;padding:1px 3px; }
+div.index .pb  { display:block; }
+.bq  div.pb, .bq span.pb  { font-size:90%; margin-right:2em; }
+
+div.img, img, body a img  {text-align:center; margin-left:auto; margin-right:auto; margin-top:1em; margin-bottom:0em; clear:right; }
+p.tcaption { margin-left:auto; margin-right:auto; max-width:30em; margin-top:2em; margin-bottom:0; }
+p.caption  { margin-left:auto; margin-right:auto; max-width:30em; margin-top:0; margin-bottom:2em; }
+p.icaption { margin-left:auto; margin-right:auto; max-width:30em; margin-top:0; margin-bottom:2em;
+          font-style:italic; text-align:justify; }
+
+sup, a.fn { font-size:75%; vertical-align:100%; line-height:50%; font-weight:normal; }
+h2   a.fn { font-size:60%; }
+h3   a.fn { font-size:65%; }
+sub { font-size:75%; vertical-align:-30%; }
+.center, .tbcenter       { text-align:center; clear:both; }                  /* TEXTUAL MARKUP */
+span.center              { display:block; }
+table.center { clear:both; margin-right:auto; margin-left:auto; }
+table.center tr td, table.center tr th     { vertical-align:top; }
+table.center tr td.l   { text-align:left; }
+table.center tr td.r   { text-align:right; }
+table.inline, table.symbol { display: inline-table; vertical-align: middle; }
+table.inline tr td.num  { border-bottom:1px solid; }
+span.num   { text-decoration:underline; width:100%; }
+
+p           { clear:left; }
+.small, .lsmall     { font-size:90%; }
+.smaller, .gloss    { font-size:80%; }
+.smallest   { font-size:67%; }
+.larger     { font-size:150%; }
+.large      { font-size:125%; }
+.xlarge     { font-size:200%; line-height:60%; }
+.xxlarge    { font-size:200%; line-height:60%; }
+.gs         { letter-spacing:1em; }
+.gs3        { letter-spacing:2em; }
+.gslarge    { letter-spacing:.3em; font-size:110%; }
+.sc         { font-variant:small-caps; font-style: normal; }
+.xo         { position:relative; left:-.3em; }
+.over, over { text-decoration: overline; display:inline; }
+hr          { margin-left:40%; clear:both; width:20%; }
+.jl         { text-align:left; }
+.jr         { text-align:right; min-width:2em; }
+.jr1        { text-align:right; margin-right:2em; }
+.ind1       { text-align:left;  margin-left:2em; }
+.u          { text-decoration:underline; }
+.hst        { margin-left:2em; }
+.rubric     { color:red; }
+.white      { background-color:black; color:white; }
+ul  li      { text-align:justify; }
+.norm       { font-style:normal; }
+.ss         { font-family:sans-serif; }
+
+dd.t           { text-align:left; margin-left: 5.5em; }
+/*============================================================== CONTENTS (.TOC) */
+dl.toc         { clear:both; margin-top:1em; font-family:sans-serif; }
+.toc  dt.center    { text-align:center; clear:both; margin-top:3em; margin-bottom:1em;}
+.toc  dt      { text-align:right; clear:left; }
+.toc  dd      { text-align:right; clear:both; }
+.toc  dd.ddt  { text-align:right; clear:both; margin-left:4em; }
+.toc  dd.ddt2 { text-align:right; clear:both; margin-left:5em; }
+.toc  dd.ddt3 { text-align:right; clear:both; margin-left:6em; }
+.toc  dd.ddt4 { text-align:right; clear:both; margin-left:7em; }
+.toc  dd.ddt5 { text-align:right; clear:both; margin-left:8em; }
+.toc  dd.note { text-align:justify; clear:both; margin-left:5em; text-indent:-1em; margin-right:3em; }
+.toc  dt .xxxtest {width:17em; display:block; position:relative; left:4em; }
+.toc  dt  a,
+.toc  dd  a,
+.toc dt span.left,
+.toc dt span.lsmall,
+.toc dd span.left { text-align:left; clear:right; float:left; }
+.toc  dt  a  span.cn { width:4em; text-align:right; margin-right:.7em;  float:left; }
+.toc  dt.sc   { text-align:right; clear:both; }
+.toc  dt.scl  { text-align:left; clear:both; font-variant:small-caps; }
+.toc  dt.sct  { text-align:right; clear:both; font-variant:small-caps; margin-left:1em; }
+.toc  dt.jl   { text-align:left; clear:both; font-variant:normal; }
+.toc  dt.scc  { text-align:center; clear:both; font-variant:small-caps; }
+.toc  dt span.lj { text-align:left; display:block; float:left; }
+.toc  dd.center { text-align:center; }
+dd.tocsummary {text-align:justify; margin-right:2em; margin-left:2em; }
+dd.center sc  {display:block; text-align:center; }
+/* BOX CELL */
+td.top { border-top:1px solid; width:.5em; height:.8em; }
+td.bot { border-bottom:1px solid; width:.5em; height:.8em; }
+td.rb  { border:1px solid; border-left:none; width:.5em; height:.8em;  }
+td.lb  { border:1px solid; border-right:none; width:.5em; height:.8em;  }
+
+/* INDEX (.INDEX) */
+dl.index   { clear:both; }
+.index dd  { margin-left:4em; text-indent:-2em; text-align:left; }
+.index dt  { margin-left:2em; text-indent:-2em; text-align:left; }
+.index dt.center {text-align:center; }
+                                                           /* FOOTNOTE BLOCKS */
+div.notes p  { margin-left:1em; text-indent:-1em; text-align:justify; }
+
+dl.undent dt { margin-left:1em; text-indent:-1em; text-align:justify; }
+dl.undent dd { margin-left:3em; text-indent:-1em; text-align:justify; }
+                                                           /* POETRY LINE NUMBER */
+.lnum   { text-align:right; float:right; margin-left:.5em; display:inline; }
+
+.hymn     { text-align:left; }                                  /*  HYMN AND VERSE: HTML  */
+.verse    { text-align:left; margin-top:1em; margin-bottom:1em; margin-left:0em; }
+.versetb  { text-align:left; margin-top:2em; margin-bottom:1em; margin-left:0em; }
+.originc  { text-align:center; }
+.subttl   { text-align:center; font-size:80%; }
+.srcttl   { text-align:center; font-size:80%; font-weight:bold; }
+p.t0, p.l { margin-left:4em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.lb                 { margin-left:4em;  text-indent:-3em; margin-top:2em; margin-bottom:0; text-align:left; }
+p.tw, div.tw, .tw    { margin-left:1em;  text-indent:-1em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t,  div.t,  .t     { margin-left:5em;  text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t2,  div.t2,  .t2  { margin-left:6em;  text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t3,  div.t3,  .t3  { margin-left:7em;  text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t4,  div.t4,  .t4  { margin-left:8em;  text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t5,  div.t5,  .t5  { margin-left:9em;  text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t6,  div.t6,  .t6  { margin-left:10em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t7,  div.t7,  .t7  { margin-left:11em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t8,  div.t8,  .t8  { margin-left:12em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t9,  div.t9,  .t9  { margin-left:13em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t10, div.t10,.t10  { margin-left:14em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t11, div.t11,.t11  { margin-left:15em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t12, div.t12,.t12  { margin-left:16em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t13, div.t13,.t13  { margin-left:17em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t14, div.t14,.t14  { margin-left:18em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.t15, div.t15,.t15  { margin-left:19em; text-indent:-3em; margin-top:0; margin-bottom:0; text-align:left; }
+p.lr, div.lr, span.lr { display:block; margin-left:0em; margin-right:0em; margin-top:0; margin-bottom:0; text-align:right; }
+dt.lr                { width:100%; margin-left:0em; margin-right:0em; margin-top:0; margin-bottom:0; margin-top:1em; text-align:right; }
+dl dt.lr a           { text-align:left; clear:left; float:left; }
+
+.fnblock   { margin-top:2em; }
+.fndef     { text-align:justify; margin-top:1.5em; margin-left:1.5em; text-indent:-1.5em; }
+.fndef p.fncont, .fndef dl { margin-left:0em; text-indent:0em; }
+dl.catalog dd { font-style:italic; }
+dl.catalog dt { margin-top:1em; }
+.author { text-align:right; margin-top:0em; margin-bottom:0em; display:block; }
+
+dl.biblio  dt        { margin-top:.6em; margin-left:2em; text-indent:-2em; text-align:justify; clear:both; }
+dl.biblio  dt  div   { display:block; float:left; margin-left:-6em; width:6em; clear:both; }
+dl.biblio  dt.center { margin-left:0em; text-align:center; }
+dl.biblio  dd        { margin-top:.3em; margin-left:3em; text-align:justify; font-size:90%; }
+.clear     { clear:both; }
+p.book     { margin-left:1em; text-indent:-1em; }
+p.review   { margin-left:2em; text-indent:-2em; }
+
+span.col  {width:6em; }</style>
+</head>
+<body>
+
+<div id="cover" class="img">
+<img class="nc" id="coverpage" src="images/cover.jpg" alt="The Atomic Fingerprint: Neutron Activation Analysis" width="500" height="772" />
+</div>
+<h1>Nuclear Clocks</h1>
+<p><b>The Understanding the Atom Series</b></p>
+<p>Nuclear Energy is playing a vital role in the life of every
+man, woman, and child in the United States today. In the
+years ahead it will affect increasingly all the peoples of the
+earth. It is essential that all Americans gain an understanding
+of this vital force if they are to discharge thoughtfully their
+responsibilities as citizens and if they are to realize fully the
+myriad benefits that nuclear energy offers them.</p>
+<p>The United States Atomic Energy Commission provides
+this booklet to help you achieve such understanding.</p>
+<div class="img" id="pic_1">
+<img src="images/pgg000.jpg" alt="Signature of Edward J. Brunenkant" width="300" height="99" />
+</div>
+<p><span class="lr">Edward J. Brunenkant, Director</span>
+<span class="lr">Division of Technical Information</span></p>
+<div class="box">
+<div class="verse">
+<p class="t0">UNITED STATES ATOMIC ENERGY COMMISSION</p>
+</div>
+<div class="verse">
+<p class="t0">Dr. Glenn T. Seaborg, Chairman</p>
+<p class="t0">James T. Ramey</p>
+<p class="t0">Wilfrid E. Johnson</p>
+<p class="t0">Francesco Costagliola</p>
+</div>
+</div>
+<div class="img" id="pic_2">
+<img src="images/pgg000a.jpg" alt="NUCLEAR CLOCKS" width="200" height="298" />
+</div>
+<p class="center">by Henry Faul</p>
+<h2 title="" class="center">CONTENTS</h2>
+<dl class="toc">
+<dt><a href="#c1">INTRODUCTION</a> 1</dt>
+<dt><a href="#c2">THEORY OF NUCLEAR AGE DETERMINATION</a> 5</dt>
+<dt><a href="#c3">THE CARBON-14 CLOCK</a> 9</dt>
+<dd><a href="#c4">Carbon-14 Counting</a> 12</dd>
+<dd><a href="#c5">Carbon-14 Results</a> 15</dd>
+<dt><a href="#c6">THE LONG-LIVED CLOCKS</a> 19</dt>
+<dd><a href="#c7">The Rubidium-Strontium Clock</a> 20</dd>
+<dd><a href="#c8">The Uranium Fission Clock</a> 24</dd>
+<dd><a href="#c9">Plumbology</a> 27</dd>
+<dt><a href="#c10">THE AGE OF THE EARTH</a> 27</dt>
+<dd><a href="#c11">Analytical Techniques</a> 31</dd>
+<dd><a href="#c12">Minerals That Can Be Dated</a> 34</dd>
+<dt><a href="#c13">SOME INTERESTING RESULTS</a> 40</dt>
+<dd><a href="#c14">The Old Man From Olduvai</a> 40</dd>
+<dd><a href="#c15">The Geologic Time Scale</a> 41</dd>
+<dd><a href="#c16">Precambrian Stratigraphy</a> 47</dd>
+<dt><a href="#c17">AND WHERE DO WE GO FROM HERE?</a> 48</dt>
+<dt><a href="#c18">GLOSSARY</a> 49</dt>
+<dt><a href="#c19">APPENDIX</a> 52</dt>
+<dt><a href="#c20">SUGGESTED REFERENCES</a> 58</dt>
+</dl>
+<p class="tbcenter"><b>United States Atomic Energy Commission
+<br />Division of Technical Information
+<br /><span class="smaller">Library of Congress Catalog Card Number: 67-60195
+<br />1966; 1968(Rev.)</span></b></p>
+<div class="img" id="pic_3">
+<img src="images/pgg001.jpg" alt="" width="500" height="633" />
+<p class="caption small"><i>A 14,000-year-old burial site being uncovered in the area of the Aswan Reservoir in Sudan. To determine the age of such ancient remains, archaeologists search for every scrap of associated wood or charcoal that could be used for age measurement of carbon-14, one of the &ldquo;nuclear clocks&rdquo; described in this booklet.</i></p>
+</div>
+<div class="pb" id="Page_1">1</div>
+<div class="img" id="pic_4">
+<img src="images/pgg001a.jpg" alt="NUCLEAR CLOCKS" width="200" height="304" />
+</div>
+<p class="center">By HENRY FAUL</p>
+<h2 id="c1">INTRODUCTION</h2>
+<p><i>How old is a rock?</i></p>
+<p><i>How old is man?</i></p>
+<p><i>How old is the earth?</i></p>
+<p>It would be difficult to find a reason why anyone would
+really have to know the answers to these questions, yet
+they have been asked over and over again since the dawn of
+human society. The records of every civilization disclose
+attempts to delve into the past beyond the memory of the
+oldest man, beyond recorded history, beyond earliest
+legend.</p>
+<p>Curiosity about the remote past may be very ancient, but
+the only reliable method of measuring very long intervals
+of time is new. The possibility of doing so became apparent
+only after the discovery of <a class="gloss" href="#Radioactivity">RADIOACTIVITY</a><a class="fn" id="fr_1" href="#fn_1">[1]</a> in 1896 by
+Henri Becquerel, when Marie and Pierre Curie in 1898
+recognized that some atoms are radioactive and change by
+themselves into other atoms at regular and constant rates.
+<span class="pb" id="Page_2">2</span>
+If something gradually transforms itself into something
+else, if this transformation goes on at a known pace, and if
+all the products of the activity are preserved in some kind
+of a <a class="gloss" href="#ClosedSystem">CLOSED SYSTEM</a>, then it is theoretically possible to
+calculate the time that has elapsed since the process
+started. The theory was clear for years; the only problem
+was how to satisfy all those ifs.</p>
+<p>By 1910 it was well established that the earth must be
+extremely ancient. Analyses of some minerals containing
+uranium showed them to be hundreds of millions of years
+old, even though the uranium came from rocks that were
+known to be relatively young among geologic <a class="gloss" href="#Strata">STRATA</a>.
+Measurements still were inaccurate, however, and only a
+few rare and unusually rich radioactive minerals contained
+enough of the products of <a class="gloss" href="#RadioactiveDecay">RADIOACTIVE DECAY</a><a class="fn" id="fr_2" href="#fn_2">[2]</a> to allow
+analysis of their age by the crude methods then available.</p>
+<p>Not much progress was made for about 30 years until
+A. O. C. Nier, a Harvard University physicist, perfected an
+instrument called a <a class="gloss" href="#MassSpectrometer">MASS SPECTROMETER</a> (to be described
+later) just before World War II. The rapid technological
+advances of the war years followed. The Manhattan
+Project<a class="fn" id="fr_3" href="#fn_3">[3]</a> made the atomic bombs that ended the
+fighting; it also developed new scientific techniques that
+could be applied, when peace returned, to the measurement
+of geologic time.</p>
+<p>The next important advance was contributed in 1946 by
+Arthur Holmes in England and by F. G. Houtermans in
+Germany. Each of these scientists had seen Nier&rsquo;s reports
+before the war and had realized that Nier&rsquo;s mass-spectrometer
+analyses of lead made it possible, for the
+first time, to make rational calculations about the age of
+the earth. The two scientists independently calculated that
+age at about 2 to 3 billion years, using the handful of data
+available to them from Nier&rsquo;s measurements. It is interesting
+that today, thousands of analyses later, our
+planet&rsquo;s age usually is given as 4.5 billion years. The
+early estimates were not far off.</p>
+<div class="pb" id="Page_3">3</div>
+<p>Development of various methods for measuring the age
+of minerals followed rapidly, and by 1955 many fundamental
+studies needed for measuring the age of very old
+substances were complete. The basic techniques are summarized
+in Table I. They will be explained later. The new
+methods produced broad confirmation of the early rough
+estimates and they also brought a few surprises.</p>
+<p>Before we go into these discoveries, let us look at some
+theoretical foundations.</p>
+<table class="center">
+<tr><th colspan="4">Table I<span class="hst"> BASIC MEASUREMENT METHODS</span></th></tr>
+<tr><td class="l">Method </td><td class="l">Material </td><td class="l">Time Dated </td><td class="l">Useful Time Span (years)</td></tr>
+<tr><td class="l">Carbon-14 </td><td class="l">Wood, peat, charcoal </td><td class="l">When plant died </td><td class="l">1000-50,000</td></tr>
+<tr><td class="l"> </td><td class="l">Bone, shell </td><td class="l">Slightly before animal died </td><td class="l">2000-35,000</td></tr>
+<tr><td class="l">Potassium-argon </td><td class="l">Mica, some whole rocks </td><td class="l">When rock last cooled to about 300&deg;C </td><td class="l">100,000 and up</td></tr>
+<tr><td class="l"> </td><td class="l">Hornblende Sanidine </td><td class="l">When rock last cooled to about 500&deg;C </td><td class="l">10,000,000 and up</td></tr>
+<tr><td class="l">Rubidium-strontium </td><td class="l">Mica </td><td class="l">When rock last cooled to about 300&deg;C </td><td class="l">5,000,000 and up</td></tr>
+<tr><td class="l"> </td><td class="l">Potash feldspar </td><td class="l">When rock last cooled to about 500&deg;C </td><td class="l">50,000,000 and up</td></tr>
+<tr><td class="l"> </td><td class="l">Whole rock </td><td class="l">Time of separation of the rock as a closed unit </td><td class="l">100,000,000 and up</td></tr>
+<tr><td class="l">Uranium-lead </td><td class="l">Zircon </td><td class="l">When crystals formed </td><td class="l">200,000,000 and up</td></tr>
+<tr><td class="l">Uranium-238 fission </td><td class="l">Many </td><td class="l">When rock last cooled </td><td class="l">100-1,000,000,000 (Depending on material)</td></tr>
+</table>
+<div class="pb" id="Page_4">4</div>
+<div class="img" id="pic_5">
+<img src="images/pgg003.jpg" alt="" width="500" height="794" />
+<p class="caption small"><i>Time scale of the Earth, drawn to scale. See also the Holmes time scale on <a href="#Page_46">page 46</a>.</i></p>
+</div>
+<table class="center">
+<tr><th>Event <span class="hst">Geologic Time</span> </th><th class="l">Period </th><th class="l">Era </th><th class="l"></th></tr>
+<tr><td class="l">Man appears<a class="fn" id="fr_4" href="#fn_4">[4]</a> (2 million years ago)</td></tr>
+<tr><td class="l"> </td><td class="l">Quaternary </td><td class="l">CENOZOIC </td><td class="l"></td></tr>
+<tr><td class="l"> </td><td class="l">Tertiary</td></tr>
+<tr><td class="l">Extinction of the dinosaurs (70 million years ago)</td></tr>
+<tr><td class="l"> </td><td class="l">Cretaceous </td><td class="l">MESOZOIC</td></tr>
+<tr><td class="l">Mammals appear (130 million years ago) </td><td class="l">Jurassic</td></tr>
+<tr><td class="l"> </td><td class="l">Triassic</td></tr>
+<tr><td class="l">Oldest known reptiles (300 million years ago) </td><td class="l">Permian </td><td class="l">PALEOZOIC</td></tr>
+<tr><td class="l"> </td><td class="l">Pennsylvanian</td></tr>
+<tr><td class="l"> </td><td class="l">Mississippian</td></tr>
+<tr><td class="l"> </td><td class="l">Devonian</td></tr>
+<tr><td class="l"> </td><td class="l">Silurian</td></tr>
+<tr><td class="l"> </td><td class="l">Ordovician</td></tr>
+<tr><td class="l"> </td><td class="l">Cambrian</td></tr>
+<tr><td class="l">First abundant life in the sea (animals without backbones) (550 million years ago)</td></tr>
+<tr><td class="l">Algae and other microorganisms (1,900 million years ago) </td><td class="l">Proterozoic </td><td class="l">PRECAMBRIAN </td><td class="l"></td></tr>
+<tr><td class="l"> </td><td class="l">Archean</td></tr>
+<tr><td class="l">Oldest rocks in North America (2,800 million years ago)</td></tr>
+<tr><td class="l">First hint of life (bacteria?) (3,100 million years ago)</td></tr>
+<tr><td class="l">Oldest rocks (3,300 million years old)</td></tr>
+<tr><td class="l">Formation of Earth&rsquo;s core (4,500 million years ago)</td></tr>
+</table>
+<div class="pb" id="Page_5">5</div>
+<h2 id="c2">THEORY OF NUCLEAR AGE DETERMINATION</h2>
+<p>We can think of the nucleus of an atom as a sort of
+drop&mdash;a bunch of <a class="gloss" href="#Neutrons">NEUTRONS</a> and <a class="gloss" href="#Protons">PROTONS</a> held together
+by very strong short-range forces. These elementary particles
+within a nucleus are not arranged in any fixed or
+rigid array, but are free to move about within the grip of
+these forces. These motions may be quite violent, but for
+most <a class="gloss" href="#Nuclide">NUCLIDES</a> found in nature, the nuclear forces are
+powerful enough to keep everything confined; thus the
+nuclei of these atoms hold together, and are said to be
+stable. If any one nucleus of a given <a class="gloss" href="#Isotopes">ISOTOPE</a> is stable,
+then all others are also stable, because what is true for
+one atom of a given kind is true for all others of the same
+kind.<a class="fn" id="fr_5" href="#fn_5">[5]</a></p>
+<p>Some nuclides, both man-made and natural, are unstable,
+however. Their nuclei are in such violent turmoil that the
+nuclear forces cannot always hold them together, and
+various bits and pieces fly off. If we were to try to predict
+when one particular unstable nucleus would thus disintegrate,
+however, we could not succeed, because the instant
+any specific decay (or disintegration) event will occur is a
+matter of chance. Only if a large number of unstable nuclei
+of one kind are collected together can we say with certainty
+that, out of that number, a certain proportion will decay in
+a given time. It turns out that this proportion is the same
+regardless of any external conditions.</p>
+<p>This property of nuclei to decay by themselves is called
+radioactivity. Radioactive nuclei decay at constant rates
+regardless of temperature, pressure, chemical combination,
+or physical state. The process goes on no matter
+what happens to the atom. In other words, the activity inside
+the nucleus is in no way affected by what happens to
+the <a class="gloss" href="#Electrons">ELECTRONS</a> circling around it. (Only in very special
+cases can outside disturbances affect the radioactivity of a
+nucleus and then only slightly. For all practical purposes,
+rates of radioactive decay are constant.)</p>
+<div class="pb" id="Page_6">6</div>
+<p>Most radioactive nuclides have rapid rates of decay
+(and lose their radioactivity in a few days, or a few years,
+at most); most of these are known today only because they
+are produced artificially. Some of them may have been
+present at the time the solar system was formed, but they
+have since decayed to such insignificant fractions of their
+original amounts that they can no longer be detected. Only
+a few radioactive nuclides decay slowly enough to have
+been preserved to this day, and so are present in nature.
+They are listed in Table II.</p>
+<table class="center">
+<tr><th colspan="4">Table II <span class="hst">RADIOACTIVE</span> NUCLIDES WITH HALF-LIVES LARGE ENOUGH TO BE STILL PRESENT IN USEFUL AMOUNTS ON THE EARTH<a class="fn" id="fr_6" href="#fn_6">[6]</a></th></tr>
+<tr><th>PARENT Element </th><th class="l">DAUGHTER Product </th><th class="l">HALF-LIFE (years) </th><th class="l">Type of Decay</th></tr>
+<tr><td class="l">Potassium-40 </td><td class="l">Argon-40 </td><td class="l">1.3 &times; 10&#8313; (total) </td><td class="l">ELECTRON CAPTURE</td></tr>
+<tr><td class="l"> </td><td class="l">Calcium-40 </td><td class="l"> </td><td class="l">BETA DECAY</td></tr>
+<tr><td class="l">Vanadium-50 </td><td class="l">Titanium-50 </td><td class="l">~6 &times; 10&sup1;&#8309; (total) </td><td class="l">Electron capture</td></tr>
+<tr><td class="l"> </td><td class="l">Chromium-50 </td><td class="l"> </td><td class="l">Beta decay</td></tr>
+<tr><td class="l">Rubidium-87 </td><td class="l">Strontium-87 </td><td class="l">4.7 &times; 10&sup1;&#8304; </td><td class="l">Beta decay</td></tr>
+<tr><td class="l">Indium-115 </td><td class="l">Tin-115 </td><td class="l">5 &times; 10&sup1;&#8308; </td><td class="l">Beta decay</td></tr>
+<tr><td class="l">Tellurium-123 </td><td class="l">Antimony-123 </td><td class="l">1.2 &times; 10&sup1;&sup3; </td><td class="l">Electron capture</td></tr>
+<tr><td class="l">Lanthanum-138 </td><td class="l">Barium-138 </td><td class="l">1.1 &times; 10&sup1;&sup1; (total) </td><td class="l">Electron capture</td></tr>
+<tr><td class="l"> </td><td class="l">Cerium-138 </td><td class="l"> </td><td class="l">Beta decay</td></tr>
+<tr><td class="l">Cerium-142 </td><td class="l">Barium-138 </td><td class="l">5 &times; 10&sup1;&#8309; </td><td class="l">ALPHA DECAY</td></tr>
+<tr><td class="l">Neodymium-144 </td><td class="l">Cerium-140 </td><td class="l">2.4 &times; 10&sup1;&#8309; </td><td class="l">Alpha decay</td></tr>
+<tr><td class="l">Samarium-147 </td><td class="l">Neodymium-143 </td><td class="l">1.06 &times; 10&sup1;&sup1; </td><td class="l">Alpha decay</td></tr>
+<tr><td class="l">Samarium-148 </td><td class="l">Neodymium-144 </td><td class="l">1.2 &times; 10&sup1;&sup3; </td><td class="l">Alpha decay</td></tr>
+<tr><td class="l">Samarium-149 </td><td class="l">Neodymium-145 </td><td class="l">~4 &times; 10&sup1;&#8308;? </td><td class="l">Alpha decay</td></tr>
+<tr><td class="l">Gadolinium-152 </td><td class="l">Samarium-148 </td><td class="l">1.1 &times; 10&sup1;&#8308; </td><td class="l">Alpha decay</td></tr>
+<tr><td class="l">Dysprosium-156 </td><td class="l">Gadolinium-152 </td><td class="l">2 &times; 10&sup1;&#8308; </td><td class="l">Alpha decay</td></tr>
+<tr><td class="l">Hafnium-174 </td><td class="l">Ytterbium-170 </td><td class="l">4.3 &times; 10&sup1;&#8309; </td><td class="l">Alpha decay</td></tr>
+<tr><td class="l">Lutetium-176 </td><td class="l">Hafnium-176 </td><td class="l">2.2 &times; 10&sup1;&#8304; </td><td class="l">Beta decay</td></tr>
+<tr><td class="l">Rhenium-187 </td><td class="l">Osmium-187 </td><td class="l">4 &times; 10&sup1;&#8304; </td><td class="l">Beta decay</td></tr>
+<tr><td class="l">Platinum-190 </td><td class="l">Osmium-186 </td><td class="l">7 &times; 10&sup1;&sup1; </td><td class="l">Alpha decay</td></tr>
+<tr><td class="l">Lead-204 </td><td class="l">Mercury-200 </td><td class="l">1.4 &times; 10&sup1;&#8311; </td><td class="l">Alpha decay</td></tr>
+<tr><td class="l">Thorium-232 </td><td class="l">Lead-208 </td><td class="l">1.41 &times; 10&sup1;&#8304; </td><td class="l">6 Alpha + 4 beta<a class="fn" id="fr_7" href="#fn_7">[7]</a></td></tr>
+<tr><td class="l">Uranium-235 </td><td class="l">Lead-207 </td><td class="l">7.13 &times; 10&#8312; </td><td class="l">7 Alpha + 4 beta</td></tr>
+<tr><td class="l">Uranium-238 </td><td class="l">Lead-206 </td><td class="l">4.51 &times; 10&#8312; </td><td class="l">8 Alpha + 6 beta</td></tr>
+</table>
+<div class="pb" id="Page_7">7</div>
+<p>In a large number of radioactive nuclei of a given kind, a
+certain fraction will decay in a specific length of time.
+Let&rsquo;s take this fraction as one-half and measure the time
+it takes for half the nuclei to decay. This time it is called
+the <a class="gloss" href="#HalfLife">HALF-LIFE</a> of that particular nucleus and there are
+various accurate physical ways of measuring it. During the
+interval of one half-life, one-half of the nuclei will decay,
+during the next half-life half of what&rsquo;s left will decay, and
+so on. We may tabulate it like this:</p>
+<table class="center">
+<tr><th>Elapsed time (Number of half-lives) </th><th class="c">Amount left of what was originally present</th></tr>
+<tr><td class="c">1 </td><td class="c">&frac12;</td></tr>
+<tr><td class="c">2 </td><td class="c">&frac14;</td></tr>
+<tr><td class="c">3 </td><td class="c">&#8539;</td></tr>
+<tr><td class="c">4 </td><td class="c">&sup1;/&#8321;&#8326;</td></tr>
+<tr><td class="c">5 </td><td class="c">&sup1;/&#8323;&#8322;</td></tr>
+<tr><td class="c">6 </td><td class="c">&sup1;/&#8326;&#8324;</td></tr>
+<tr><td class="c">7 </td><td class="c">&sup1;/&#8321;&#8322;&#8328;</td></tr>
+<tr><td class="c">... </td><td class="c">...</td></tr>
+</table>
+<p>In other words, after seven half-lives, less than 1% of
+the original amount of material will still be radioactive and
+the remaining 99%+ of its atoms will have been converted
+to atoms of another nuclide. This kind of process can be
+made the basis of a clock. It works, in effect, like the
+upper chamber of an hourglass. Mathematically it is
+written:</p>
+<p class="center">N = N&#8320;e<sup>-&lambda;t</sup></p>
+<dl class="undent"><dt>where</dt>
+<dd>N = the number of radioactive atoms present in the system now,</dd>
+<dd>N&#8320; = the number that was present when t = 0, (in other words, at the time the clock started),</dd>
+<dd>e = the base of natural (or Napierian<a class="fn" id="fr_8" href="#fn_8">[8]</a>) logarithms (the numerical value of e = 2.718 ...),</dd>
+<dd>&lambda; (lambda) = the decay rate of the radioactive material, expressed in atoms decaying per atom per unit of time,</dd>
+<dd>t = the time that has elapsed since the origin of system, expressed in the same units.</dd></dl>
+<div class="pb" id="Page_8">8</div>
+<p>Obviously, in ordinary computations that would not be
+enough information to calculate the time, because there
+still are two unknowns, <i>N&#8320;</i> and <i>t</i>. In a closed system,
+however, the atoms that have decayed do not disappear
+into thin air. They merely change into other atoms, called
+daughter atoms, and remain in the system.</p>
+<p>And at any point in time, there will be both <a class="gloss" href="#Parent">PARENT</a> and
+<a class="gloss" href="#Daughter">DAUGHTER</a> atoms mixed together in the material. The
+older the material, the more daughters and the fewer
+parents. Some daughters are also radioactive, but this
+does not change the basic situation. Thus it follows that</p>
+<p class="center">N&#8320; = N + D</p>
+<p>where D = the number of daughter (decayed) atoms. We
+may then substitute into the first equation</p>
+<p class="center">N = (N + D) e<sup>-&lambda;t</sup></p>
+<p>and solve</p>
+<p class="center">t = 1/&lambda; &middot; ln(1 + D/N)</p>
+<p>where ln = the natural logarithm, the logarithm to base e.</p>
+<p>This kind of system can be represented crudely by an
+old-fashioned hourglass, as shown in the figure, which has
+the parameters of these equations marked. (Keep in mind,
+however, that this is only a gross analogy. Nuclear clocks
+run at logarithmically decreasing rates, but the speed of a
+good hourglass is roughly constant.)</p>
+<div class="img" id="pic_6">
+<img src="images/pgg005.jpg" alt="" width="400" height="372" />
+<p class="caption small"><i>An hourglass illustrates an ideal closed system. Nothing is added and nothing is removed&mdash;the sand just runs from the top bulb to the bottom.</i></p>
+</div>
+<div class="pb" id="Page_9">9</div>
+<p>Remember that the decaying nucleus does not disappear.
+It changes into another nucleus, and this new nucleus forms
+an atom that may be captured and held fixed by natural
+processes. The decayed nuclei are thus collected, so that
+here we have the bottom chamber of the hourglass.</p>
+<p>But sometimes we need only the top chamber of an hourglass.</p>
+<h2 id="c3">THE CARBON-14 CLOCK</h2>
+<p>Carbon-14 decay is the best example of a top-only hourglass.
+Carbon-14 is constantly being produced in the upper
+atmosphere from atoms of nitrogen-14 being struck by
+neutrons that had their origin in <a class="gloss" href="#CosmicRays">COSMIC RAYS</a>. The reaction
+is written:</p>
+<p class="center">&sup1;&#8308;N + neutron &rarr; &sup1;&#8308;C + proton</p>
+<p>Radioactive decay then follows, with a half-life of 5800
+years<a class="fn" id="fr_9" href="#fn_9">[9]</a> for the &sup1;&#8308;C.</p>
+<p class="center">&sup1;&#8308;C &rarr; &sup1;&#8308;N + electron (<a class="gloss" href="#BetaParticle">BETA PARTICLE</a>)</p>
+<p>The radiocarbon emits an electron and changes back into
+nitrogen.</p>
+<p>As far as anyone can tell, &sup1;&#8308;C was produced at a constant
+rate above the earth for at least 50,000 years before the
+first atomic bomb was exploded. In other words, the &sup1;&#8308;C
+cycle is like an hourglass in which the sand in the upper
+part is replenished as fast as it runs out through the hole
+in the waist. A process of this sort, where production
+equals decay, is called a <a class="gloss" href="#SecularEquilibrium">SECULAR EQUILIBRIUM</a>.</p>
+<p>The newly produced &sup1;&#8308;C soon is evenly mixed with the
+carbon dioxide in the air, is taken up by all living plants,
+<span class="pb" id="Page_10">10</span>
+and then finds its way into all living animals. In effect, all
+carbon in living organisms contains a constant proportion
+of &sup1;&#8308;C. If any of this carbon is taken out of circulation&mdash;when
+a tree branch is broken off, for instance, or when a
+shellfish dies in the ocean&mdash;no more new &sup1;&#8308;C is added to
+that particular system, but the old &sup1;&#8308;C continues to run out.
+In effect it now starts measuring time as an hourglass
+should.</p>
+<div class="img" id="pic_7">
+<img src="images/pgg006.jpg" alt="" width="500" height="333" />
+<p class="caption small"><i>To illustrate secular equilibrium, one must imagine an hourglass in which the sand in the top bulb is continuously replenished&mdash;as fast as it runs out through the hole in the waist and disappears.</i></p>
+</div>
+<p>When we find a piece of charcoal in a cave or a piece of
+wood in some ancient structure, for example, we can measure
+the amount of carbon in it, determine how much of it
+is &sup1;&#8308;C, and then calculate back to the time when the radioactivity
+from the &sup1;&#8308;C was the same as we now find in living
+wood. In other words, if we assume that we know from the
+observed secular equilibrium how much &sup1;&#8308;C originally was
+present in living material, then we can calculate the time
+of death of any similar but ancient material. That is the
+basis of the &sup1;&#8308;C method of age determination.</p>
+<div class="pb" id="Page_11">11</div>
+<div class="img" id="pic_8">
+<img src="images/pgg006a.jpg" alt="" width="500" height="718" />
+<p class="caption small"><i>Dinosaur tracks imprinted in rock in Navajo Canyon, Arizona, arouse the professional interest of this scientist. Fossil traces of extinct prehistoric creatures were for a long time the best clues to the age of rock formations.</i></p>
+</div>
+<div class="img" id="pic_9">
+<img src="images/pgg006b.jpg" alt="" width="500" height="624" />
+<p class="caption small"><i>A scientist using liquid nitrogen to freeze carbon dioxide gas made from a sample of ancient material that he is preparing for age determination by the carbon-14 technique.</i></p>
+</div>
+<div class="pb" id="Page_12">12</div>
+<p>For example, a bit of a rafter from a prehistoric cliff-dwelling
+or a remnant of charcoal from an ancient fire may
+be analyzed for its remaining &sup1;&#8308;C content, and its age determined
+accurately within the margin of a few hundred
+years. This fixes the time at which the wood for the rafter
+or the firewood was broken or cut from the living tree, and
+hence the period in which the men lived who used the wood.</p>
+<div class="img" id="pic_10">
+<img src="images/pgg007.jpg" alt="" width="500" height="230" />
+<p class="caption small"><i>The most useful samples for carbon-14 age determination are charcoal, wood, and shells.</i></p>
+</div>
+<h3 id="c4">Carbon-14 Counting</h3>
+<p>Carbon-14 measurements are made by taking a known
+amount of carbon, reducing it to a gas, and then counting
+the &sup1;&#8308;C disintegrations in the gas. This may sound simple,
+but in reality the measurement process is a formidable
+undertaking, because the amount of the &sup1;&#8308;C isotope in the
+carbon is so extremely small. (The remainder of the
+carbon, of course, consists of other isotopes&mdash;&sup1;&sup2;C or &sup1;&sup3;C,
+which are stable.)</p>
+<p>There are two basic techniques. The carbon can be:</p>
+<blockquote>
+<p>1. Burned with oxygen to form carbon dioxide, or</p>
+<p>2. Reduced chemically to methane or ethane, or to a
+carbide from which acetylene can be evolved by adding
+water. (See booklet cover and description on <a href="#Page_59">page 59</a>.)</p>
+</blockquote>
+<p>The first technique is the simpler, but carbon dioxide
+(CO&#8322;) contains only one atom of carbon per molecule,
+whereas acetylene (C&#8322;H&#8322;) and ethane (C&#8322;H&#8326;) each contain
+two. Consequently, the <a class="gloss" href="#SpecificActivity">SPECIFIC ACTIVITY</a> of acetylene or
+<span class="pb" id="Page_13">13</span>
+ethane is twice that of carbon dioxide, other things being
+equal. For that reason acetylene or ethane are the preferred
+gases in some laboratories. On the other hand, they
+are explosive, and that cautions other scientists into using
+the carbon dioxide method.</p>
+<p>Whichever gas is used, it is first purified and then stored
+in a bottle for a month or so. This storage allows for decay
+(disappearance) of any radon, the gaseous radioactive
+product of uranium decay. Uranium contamination is difficult
+to avoid at the low radioactivity levels of &sup1;&#8308;C, but the
+half-life of radon is only 3.82 days, so that it will decay to
+an insignificant level in a month. After the storage period,
+the gas is pumped into an array of instruments known as a
+low-background <a class="gloss" href="#ProportionalCounter">PROPORTIONAL COUNTER</a>, and its radioactivity
+is determined. This is an involved process.
+First there is the matter of the <a class="gloss" href="#BackgroundCount">BACKGROUND COUNT</a>.</p>
+<p>The background count of an instrument is the number of
+pulses (counts) it will give per unit time when there is <i>no</i>
+radioactive sample in it. These counts are caused by
+cosmic rays, by radioactive contamination always found in
+the vicinity of the counter, or by any contamination inside
+the instrument. In &sup1;&#8308;C counting, all these sources of background
+must be reduced to negligible levels. This is done
+in a number of ways.</p>
+<p>For one thing, the whole assembly is constructed with
+surrounding walls of lead or iron more than a foot thick.
+Such a shield will stop all the <a class="gloss" href="#GammaRays">GAMMA RAYS</a> coming from
+radioactive contamination in the laboratory and much of the
+cosmic radiation; high-energy cosmic rays and all neutrons
+still will get through. Therefore, there is an <a class="gloss" href="#AnticoincidenceRing">ANTICOINCIDENCE RING</a>
+inside the lead shield. This is a cylindrical
+space completely surrounded by <a class="gloss" href="#GeigerCounters">GEIGER COUNTERS</a>
+that are connected to each other and to the <a class="gloss" href="#SampleCounter">SAMPLE COUNTER</a>
+in the middle. With this arrangement, when the
+sample counter and any ring counter discharge simultaneously,
+it is a signal that the pulse triggering this response
+was caused by some energetic particles, such as a
+cosmic ray, passing through the whole assembly. A pulse
+recorded simultaneously on two counters is automatically
+rejected from the counting mechanisms. Some instruments
+have been designed with a cylinder of paraffin immediately
+<span class="pb" id="Page_14">14</span>
+inside the anticoincidence ring, to slow down neutrons so
+that they can be captured, and with a final shield of highly
+purified mercury between two cylinders of selected steel
+to hold out even more unwanted radiation.</p>
+<div class="img" id="pic_11">
+<img src="images/pgg008.jpg" alt="" width="500" height="358" />
+<p class="caption small"></p>
+</div>
+<div class="img" id="pic_12">
+<img src="images/pgg008a.jpg" alt="" width="500" height="546" />
+<p class="caption small"><i>A carbon-14 counter. Sketch (above) shows arrangement of components in photo (left).</i></p>
+</div>
+<p>Finally, the sample counters are made of specially
+selected metal tubing that is extremely low in radioactive
+<span class="pb" id="Page_15">15</span>
+content, with a fine wire stretched down the middle. (In
+some recent designs, the anticoincidence ring and sample
+counter are combined in a single cylindrical housing with a
+thin foil of metallized plastic between them.) A thin glass
+filling tube connects the sample counter with the outside
+world.</p>
+<div class="img" id="pic_13">
+<img src="images/pgg008b.jpg" alt="" width="500" height="294" />
+<p class="caption small"><i>Detail of one type of sample-counting tube for carbon-14 work. Carbon-14 in benzene gas molecules is placed in the central cell and mixed with a fluid that scintillates, or emits light flashes, when exposed to radiation. Photomultiplier tubes convert the flashes to electric signals.</i></p>
+</div>
+<p>The radiocarbon-bearing gas is pumped into the sample
+counter through the filling tube, and all the counts resulting
+from its disintegrations are recorded electronically. The
+age of the sample is calculated from the <a class="gloss" href="#NetCountingRate">NET COUNTING RATE</a>
+(the sample counting rate minus the background); the
+lower the counting rate the higher the age. The upper limit
+of the age that can be measured is determined by the
+<a class="gloss" href="#StatisticalError">STATISTICAL ERROR</a> (that is, by the measure of the
+instrument accuracy) in the net count. In very old samples
+this error may be great enough so that the calculated age
+of the sample may have little or no meaning.</p>
+<h3 id="c5">Carbon-14 Results</h3>
+<div class="pb" id="Page_16">16</div>
+<h4>OBJECTS DATED BY RADIOCARBON</h4>
+<div class="img" id="pic_14">
+<img src="images/pgg009.jpg" alt="" width="500" height="127" />
+<p class="caption small"><i>Hair of an Egyptian woman. 5020 &plusmn; 290 years old.</i></p>
+</div>
+<div class="img" id="pic_15">
+<img src="images/pgg009a.jpg" alt="" width="500" height="300" />
+<p class="caption small"><i>Linen wrapping from the Dead Sea Scroll containing the Book of Isaiah. 1917 &plusmn; 200 years old.</i></p>
+</div>
+<div class="img" id="pic_16">
+<img src="images/pgg009b.jpg" alt="" width="500" height="236" />
+<p class="caption small"><i>Peruvian rope. 2632 &plusmn; 200 years old.</i></p>
+</div>
+<div class="pb" id="Page_17">17</div>
+<div class="img" id="pic_17">
+<img src="images/pgg009c.jpg" alt="" width="500" height="246" />
+<p class="caption small"><i>Preglacial wood found in Ohio. More than 20,000 years old.</i></p>
+</div>
+<div class="img" id="pic_18">
+<img src="images/pgg009d.jpg" alt="" width="500" height="371" />
+<p class="caption small"><i>Rope sandal found in an eastern Oregon cave. One of a pair of 300 pairs found in this cave. 9035 &plusmn; 325 years old.</i></p>
+</div>
+<div class="pb" id="Page_18">18</div>
+<p>Carbon-14 is by far the most widely used method of
+measuring geologic time. It has become the mainstay of
+archeology and geology for studies of events of the past
+50,000 years or so, and also has wide applications in
+climatology, ecology, and geography. It would be difficult
+to pick out the most significant example of the use of this
+method, but one important contribution has been in study of
+the early inhabitants of North America. With the aid of &sup1;&#8308;C
+it has been possible to date human living sites from many
+points in the western United States. The first appearance of
+these sites, about 11,500 years ago, apparently coincided
+with the time when a land bridge was open from Asia to
+America over what is now the Bering Strait. An ice-free
+passage extended from this bridge through present-day
+Alaska and western Canada to the United States. This may
+have been the route taken by the first immigrants to
+America&mdash;a population of mammoth-hunters, who made
+the characteristic flint <i>Clovis</i> arrow and spear points.</p>
+<div class="img" id="pic_19">
+<img src="images/pgg010.jpg" alt="" width="500" height="197" />
+<p class="caption small"><i>A Clovis arrow point chipped from flint by the earliest men on the American continent. The photograph is actual size.</i></p>
+</div>
+<p>By about 11,000 years ago, these Clovis people had
+spread across the area of the United States and into
+Mexico. It may have been they who killed off the mammoths
+and then gradually assumed the characteristics of the
+<i>Folsom</i> culture. The Folsom people were bison-hunters,
+and long were thought to have been the first population in
+America. It was with the use of &sup1;&#8308;C that it finally was possible
+to place these two cultures in proper sequence&mdash;the
+Clovis first&mdash;and to correlate them with major natural
+changes, especially the advance and retreat of glaciers
+across the continent.</p>
+<div class="pb" id="Page_19">19</div>
+<h2 id="c6">THE LONG-LIVED CLOCKS</h2>
+<p>All other practical age-determination schemes are based
+on a few long-lived isotopes, with half-lives relatively near
+the age of the earth (4.5 <a class="gloss" href="#Aeon">AEONS</a>). They are:</p>
+<table class="center">
+<tr><th colspan="4">Table III</th></tr>
+<tr><th>Isotope </th><th class="l">Emits </th><th class="l">Decays to </th><th class="l">Half-life</th></tr>
+<tr><td class="l">Uranium-238 </td><td class="l">8 <a class="gloss" href="#AlphaParticle">ALPHA PARTICLES</a><a class="fn" id="fr_10" href="#fn_10">[10]</a> </td><td class="l">Lead-206 </td><td class="l">4.51 aeons</td></tr>
+<tr><td class="l">Uranium-238 </td><td class="l">Spontaneous fission </td><td class="l">2 Fragments </td><td class="l">10 million aeons<a class="fn" id="fr_11" href="#fn_11">[11]</a></td></tr>
+<tr><td class="l">Uranium-235 </td><td class="l">7 Alpha particles </td><td class="l">Lead-207 </td><td class="l">0.713 aeons</td></tr>
+<tr><td class="l">Thorium-232 </td><td class="l">6 Alpha particles </td><td class="l">Lead-208 </td><td class="l">14.1 aeons</td></tr>
+<tr><td class="l">Rubidium-87 </td><td class="l">Beta particle </td><td class="l">Strontium-87 </td><td class="l">4.7 aeons</td></tr>
+<tr><td class="l">Potassium-40 </td><td class="l">Electron capture </td><td class="l">Argon-40 </td><td class="l">1.3 aeons</td></tr>
+<tr><td class="l">...... </td><td class="l">...... </td><td class="l">...... </td><td class="l">......</td></tr>
+<tr><td class="l">Rhenium-187<a class="fn" id="fr_12" href="#fn_12">[12]</a> </td><td class="l">Beta particle </td><td class="l">Osmium-187 </td><td class="l">40 aeons</td></tr>
+</table>
+<p>It is apparent that Table II on <a href="#Page_6">page 6</a>, showing the
+long-lived radioactive nuclides, is much longer than the
+list of the seven shown here that are actually useful in
+practice. Some of the nuclides that are theoretically
+available are useless on a practical basis, because they
+are so rare in nature. Many others cannot be used for
+reasons that are fundamental to the whole process of
+nuclear age determination by &ldquo;whole hourglass&rdquo; (that is,
+parent-daughter) methods. Let&rsquo;s look at these reasons.</p>
+<p>These methods are based on closed systems in which the
+daughter products of the radioactive decay are locked with
+the parent material from the beginning of the system, and
+nothing is added or removed thereafter. To state it in
+terms of our analogy, the hourglass must be in perfect
+working order&mdash;no leaks or cracks permitted.</p>
+<p>There is another fundamental requirement: At the beginning,
+the bottom part of the hourglass must be empty.
+<span class="pb" id="Page_20">20</span>
+If some sand were already in the bottom at the start, we
+would mistakenly be led to conclude that the time elapsed
+was longer than it actually was. That necessity places a
+severe limitation on the type of system we can use.</p>
+<p>Consider, for example, the decay of potassium-40 into
+calcium-40. Measuring this process is perfectly suitable
+from the point of view of half-life, but the daughter product
+is identical with the most common isotope of ordinary
+calcium. And calcium is present everywhere in nature!
+Even the purest mineral of potassium, sylvite (the salt,
+potassium chloride), contains so much calcium impurity
+that the <a class="gloss" href="#Radiogenic">RADIOGENIC</a> daughter calcium, produced by the
+decay of potassium in geologic time, is negligible in
+comparison. We can say that the bottom of this potassium-40
+hourglass has been stuffed with so much sand from the
+very beginning that the few grains that fall through the
+waist are lost in the overall mass. This demonstrates that
+schemes involving the decay of a relatively rare nuclide
+into a relatively common one are not usable. Natural geochemical
+separations of elements are never perfect,
+anyway.</p>
+<p>Similarly, the decay of any of the <a class="gloss" href="#RareEarth">RARE EARTH</a> elements
+into other rare earth elements is not particularly helpful,
+because the rare earths are so similar chemically they
+tend to travel together when they move in nature.<a class="fn" id="fr_13" href="#fn_13">[13]</a> Wherever
+the parent isotope goes, the daughter tags along.</p>
+<h3 id="c7">The Rubidium-Strontium Clock</h3>
+<p>The decay of rubidium-87 (&#8312;&#8311;Rb) into strontium-87 (&#8312;&#8311;Sr)
+is perhaps the most useful scheme for geologic age determination.
+The same problem shows up here, but at least
+there is a way out of the wilderness. It is not exactly
+simple, but a consideration of it is fundamental to understanding
+the process of nuclear dating. The figure shows
+patterns from mass spectrometer charts; each peak represents
+an isotope of strontium, and the height of every peak
+is proportional to the relative abundance of that isotope.
+<span class="pb" id="Page_21">21</span>
+In the figure, A shows the mass-spectrum of a rock or
+mineral containing <a class="gloss" href="#Common">COMMON</a> strontium (which is a mixture
+of several isotopes). The peak of &#8312;&#8311;Sr is small compared
+to the others. B shows the mass-spectrum of strontium
+from an old rubidium-rich mineral <a class="gloss" href="#Crystal">CRYSTAL</a>, drawn
+to the same scale, as far as the nonradiogenic isotopes,
+&#8312;&#8308;Sr, &#8312;&#8310;Sr, and &#8312;&#8312;Sr, are concerned. The &#8312;&#8311;Sr peak in this
+spectrum is obviously larger than in the common strontium
+in A. This is because this isotope is radiogenic and has
+been accumulating from the decay of rubidium since this
+crystal was formed.</p>
+<p>The question we must answer is: How much of this &#8312;&#8311;Sr
+was formed from &#8312;&#8311;Rb decay and how much originally was
+present in the crystal as an impurity? If the amount of this
+<a class="gloss" href="#Original">ORIGINAL</a> strontium is not too large, the problem can be
+solved by simple arithmetic.</p>
+<p>First, we must find a good sample of common strontium&mdash;that
+is, ordinary strontium, the kind shown at left in the
+figure. We cannot require that this strontium be entirely
+uncontaminated by radiogenic strontium, because all strontium
+is more or less contaminated. What we need is strontium
+contaminated to <i>just the same extent</i> as the strontium
+that was taken as an impurity into the closed system when
+it first formed. In geological specimens such a material is
+usually available.</p>
+<div class="img" id="pic_20">
+<img src="images/pgg011.jpg" alt="" width="500" height="256" />
+<p class="caption small"><i>Drawings of mass-spectrometer charts showing the isotopic spectra of two kinds of strontium: (A) common strontium and (B) strontium from an old mineral rich in rubidium.</i> (<i>See <a href="#Page_32">page 32</a> for photo of a mass spectrometer.</i>)</p>
+</div>
+<div class="pb" id="Page_22">22</div>
+<div class="img" id="pic_21">
+<img src="images/pgg012.jpg" alt="" width="500" height="711" />
+<p class="caption small"><i>Rubidium-87 and strontium-87 fall on the same spot in the mass spectrum. Therefore, rubidium must be separated chemically from strontium before the strontium can be analyzed in a mass spectrometer. It is done with ion-exchange columns. Four of them are shown in this photograph. The author of this booklet is adding a sample, dissolved in a few drops of hydrochloric acid, to the second column.</i></p>
+</div>
+<p>Let us take as our closed system a mica crystal in a
+mass of granite. Mica contains a fair amount of rubidium,
+and it retains its radiogenic strontium very well. Furthermore,
+mica crystals are often associated or even intergrown
+with the slender, rod-shaped crystals of a mineral
+called apatite&mdash;a phosphate of calcium. It is justifiable, on
+the basis of geological knowledge, to say that the mica and
+the apatite grew at roughly the same time and thus presumably
+from the same liquid medium that became granite
+when it later solidified. Now strontium is geochemically
+similar to calcium, and some strontium will have gone into
+the apatite crystal in place of calcium. Apatite contains no
+alkalis&mdash;hence apatite will have virtually no rubidium
+(which is an alkali) in it to contaminate the &#8312;&#8311;Sr. Consequently,
+when we find apatite in an old granite, we know the
+apatite will still contain the kind of common strontium that
+was taken into the mica crystal when it grew originally.</p>
+<p>We can separate the apatite from the granite by standard
+mineralogical techniques, extract the strontium from the
+<span class="pb" id="Page_23">23</span>
+apatite chemically, and analyze it on a mass spectrometer
+to obtain the isotopic spectrum&mdash;the relative amount of
+each isotope that is present. We can then perform the
+same isotopic analysis on the strontium extracted from the
+mica, and subtract the original (apatite) strontium from
+the total (mica) strontium, to obtain the radiogenic component
+or daughter product. (See <a href="#Page_32">page 32</a> for details of this
+method.)</p>
+<p>Obviously, there is a certain error associated with every
+isotopic analysis, so such a calculation is meaningful only
+when the radiogenic component is large compared with the
+error in the measurement of isotopic abundance. When one
+large quantity must be subtracted from another large
+quantity to obtain a small difference, there is an obvious
+limit to how much one can trust the result. The absolute
+accuracy in measuring strontium isotope abundance is a
+few tenths of 1%, using the best mass spectrometers now
+available. In practice, one can trust a calculated age for a
+specimen only when the &#8312;&#8311;Sr is as little as about 5% radiogenic.
+The results do not mean much when only 1 or 2% is
+radiogenic.</p>
+<div class="img" id="pic_22">
+<img src="images/pgg012a.jpg" alt="" width="500" height="680" />
+<p class="caption small"><i>A sample of granite being made ready for crushing and mineral separation.</i></p>
+</div>
+<div class="pb" id="Page_24">24</div>
+<h3 id="c8">The Uranium Fission Clock</h3>
+<p>When a neutron strikes the nucleus of uranium-235 (&sup2;&sup3;&#8309;U)
+or plutonium-239 (&sup2;&sup3;&#8313;Pu), it may cause the nucleus to split
+into two roughly equal fragments, releasing neutrons and
+energy. This is the well-known process of neutron-induced
+fission, the method in which nuclear energy is produced in
+both reactors and bombs.<a class="fn" id="fr_14" href="#fn_14">[14]</a> The most common uranium
+isotope, &sup2;&sup3;&#8312;U, also breaks up by fission, but does so all by
+itself, without the need for any external neutrons. That
+process is <i>spontaneous fission</i> and it goes on at random,
+very much like radioactive decay. It is a relatively rare
+process and the fission half-life is long&mdash;about 10 million
+aeons (10&sup1;&#8310; years). That means that only about one spontaneous
+fission occurs in uranium-238 for every 2 million
+alpha decays. That is enough to make a useful clock, however,
+because &sup2;&sup3;&#8312;U is present almost everywhere. (See
+Table III on <a href="#Page_19">page 19</a>.)</p>
+<p>Imagine an atom of &sup2;&sup3;&#8312;U in some mineral. When the atom
+suddenly fissions, it breaks in two with considerable energy,
+and the two fission fragments rip like cannon balls
+through the surrounding crystalline structure in opposite
+directions, creating havoc along the way. They travel a
+distance something like 10 microns (4 millionths of an inch)
+before they are finally slowed down and stopped by all their
+collisions with other atoms. Each fragment&rsquo;s path remains
+behind as an intensely damaged tube through the crystal.</p>
+<p>The process was known for a long time before anyone
+was able to find these fission tracks (the damaged tubes) in
+the crystals. Finally, about 1960, three young physicists,
+R. L. Fleischer, P. B. Price, and R. M. Walker, working at
+the General Electric Research Laboratory, fell upon the
+idea of etching freshly broken surfaces of crystals with
+acid. They reasoned that a region so intensely disturbed by
+the passage of a fission fragment should be etched more
+easily and deeply than the undisturbed surrounding crystal.
+That idea turned out to be correct, and fission tracks have
+now been found in almost every common mineral (since
+almost all minerals contain small amounts of uranium).</p>
+<div class="pb" id="Page_25">25</div>
+<div class="img" id="pic_23">
+<img src="images/pgg013.jpg" alt="" width="500" height="331" />
+<p class="caption small"><i>Tracks of uranium fission from a fossil antelope bone fragment from Hopefield, Cape Province, South Africa.</i></p>
+</div>
+<p>The fission clock method works this way: A cleavage
+face or a polished surface of a crystal or glass fragment is
+etched with a suitable solvent. Different acids work best for
+different materials, and a suitable procedure must be developed
+especially for each substance. The etching brings
+out the fission tracks so they can be seen (usually as little
+conical pits) and counted under a microscope.</p>
+<p>After this, the sample is exposed to a known amount of
+slow neutrons<a class="fn" id="fr_15" href="#fn_15">[15]</a> in a nuclear reactor. New fissions are
+produced, but this time only in &sup2;&sup3;&#8309;U (which is present in all
+natural uranium in the proportion of 1 atom of &sup2;&sup3;&#8309;U to 137.7
+atoms of &sup2;&sup3;&#8312;U), because slow neutrons do not produce fissions
+in &sup2;&sup3;&#8312;U. After the neutron irradiation, the same surface
+is etched again, and the new tracks counted. The old
+tracks, having been etched twice, now appear larger and
+thus can be distinguished from the new ones that were
+caused by &sup2;&sup3;&#8309;U fission.</p>
+<div class="pb" id="Page_26">26</div>
+<p>The rate at which &sup2;&sup3;&#8312;U decays by fission, &lambda;<sub>f</sub>, is known, as
+are the rate it decays by alpha decay, &lambda;<sub>&alpha;</sub>, and the total
+number of slow neutrons, <i>n</i>, to which the sample was exposed
+in the reactor. The age of the crystal or glass can
+then be calculated:</p>
+<div class="center">t = <table class="inline"><tr><td class="num">1</td></tr><tr><td class="den">&lambda;<sub>&alpha;</sub></td></tr></table> ln (1 + <table class="inline"><tr><td class="num"><i>n</i>N<sub>s</sub></td></tr><tr><td class="den">N<sub>i</sub></td></tr></table> &times; constant)</div>
+<dl class="undent"><dt>where</dt>
+<dd>ln = the natural logarithm (log to the base <i>e</i>),</dd>
+<dd>N<sub>s</sub> = the number of atoms in the sample.</dd>
+<dd>N<sub>i</sub> = the number of atoms of &sup2;&sup3;&#8309;U in the irradiated sample,</dd></dl>
+<p>and the constant has the value:</p>
+<div class="center">&frac12; <table class="inline"><tr><td class="num">&lambda;<sub>&alpha;</sub>&nbsp;&times;&nbsp;582&nbsp;&times;&nbsp;10&#8315;&sup2;&#8308;</td></tr><tr><td class="den">&lambda;<sub>f</sub>&nbsp;&times;&nbsp;137.7</td></tr></table> = 4.25 &times; 10&#8315;&sup1;&#8312;</div>
+<p>Fission-track dating is a brand new technique, still only
+partly developed. It has enormous range and is applicable
+to numerous minerals; these advantages imply that it is
+likely to become very useful.</p>
+<div class="img" id="pic_24">
+<img src="images/pgg014.jpg" alt="" width="500" height="330" />
+<p class="caption small"><i>An atomic absorption spectrophotometer is used to measure the amount of potassium in samples of mica dissolved in acid.</i></p>
+</div>
+<div class="pb" id="Page_27">27</div>
+<h3 id="c9">Plumbology</h3>
+<p>The most complicated and therefore probably the most
+interesting decay scheme of all is the decay of uranium to
+lead, discovered well over half a century ago and still
+intensively studied. There are several reasons for the
+interest.</p>
+<p>First, uranium and lead are geochemically separated to a
+high degree, not only on the small scale of an ore deposit
+but also on the scale of the earth as a whole. Second,
+natural uranium has two isotopes with half-lives that are
+neither too long nor too short to be useful (the greater
+half-life almost exactly equaling the age of the earth), and
+these half-lives differ from each other by a factor of about
+6.3. That leads to very important consequences, as we shall
+see. Third, uranium and lead are both common, and techniques
+are available for extracting them in measurable
+quantities from almost any natural material.</p>
+<p>As a consequence of these happy circumstances, the
+study of uranium and lead has contributed a great deal to
+understanding the earth&rsquo;s history and the processes that
+go on inside it. F. G. Houtermans, one of the great pioneers
+in this study, jokingly called the method <a class="gloss" href="#Plumbology">PLUMBOLOGY</a>,
+and it seems a useful name.</p>
+<h2 id="c10">THE AGE OF THE EARTH</h2>
+<p>The greatest achievement of the &ldquo;plumbologists&rdquo; has
+been the calculation of the age of the earth, first proposed
+by Houtermans, a German physicist, and independently by
+Arthur Holmes, a British geologist, in 1946 and finally
+perfected by C. C. Patterson in 1953. It is actually a rather
+simple calculation, although the way to discovering it was
+far from easy. Before we look at it in detail, however, let&rsquo;s
+consider some basic assumptions and explain what is
+meant by &ldquo;the age of the earth&rdquo;.</p>
+<p>From studying the mechanics of the solar system,
+scientists have become reasonably certain that the earth
+and the other planets and their satellites all were formed
+in a common process in a relatively short period of time,
+geologically speaking. Perhaps it took a dozen million
+<span class="pb" id="Page_28">28</span>
+years or so, but compared to the time that has elapsed
+since, that is a twinkling. At some time soon afterwards,
+the earth became molten, or at any rate fluid enough to
+allow much of its iron to settle toward the center to form
+the earth&rsquo;s core. Similar cores presumably formed in
+other planets. As the iron went down, it took some lead
+with it, and as the silica went up, uranium followed it
+toward the surface, because of the chemical affinity between
+these kinds of elements. In the present earth, we
+have found, almost all the uranium is concentrated in the
+top layer, or crust, which is only about 25 miles thick
+under the continents and even thinner under the oceans.</p>
+<div class="img" id="pic_25">
+<img src="images/pgg015.jpg" alt="" width="500" height="431" />
+<p class="caption small"><i>Internal structure of the earth. The central core is probably an alloy of iron and nickel, surrounded by a mantle of less dense silicate material, with a thin crust of still lighter silicates.</i></p>
+</div>
+<p>The time of this early and relatively rapid separation of
+uranium and lead on a worldwide scale is the event that
+plumbologists can determine, and the period since then is
+what they mean by &ldquo;the age of the earth&rdquo;. When Houtermans
+first wrote about it, he called it &ldquo;the age of uranium&rdquo;.</p>
+<p>How is this done? We have said that one of the isotopes
+of uranium, &sup2;&sup3;&#8309;U, decays faster&mdash;about 6.3 times faster&mdash;than
+the other, &sup2;&sup3;&#8312;U. They decay into two different isotopes
+of lead. Therefore, if we can determine the isotopic composition
+of average ordinary lead in the earth&rsquo;s crust
+today, and if we can somehow obtain a sample of the kind
+of lead that is locked in the earth&rsquo;s core, we can calculate
+<span class="pb" id="Page_29">29</span>
+how long it took to change the <a class="gloss" href="#Primordial">PRIMORDIAL</a> lead (like that
+in the core) into present-day lead in the crust by the
+gradual addition of radiogenic lead&mdash;lead that has resulted
+from the decay of uranium. Now, someone might logically
+ask, &ldquo;Isn&rsquo;t it necessary to know also the actual amount
+of uranium involved in the process, and isn&rsquo;t this difficult
+to determine?&rdquo; It turns out to be a remarkable aspect
+of the Holmes-Houtermans calculation that the uranium-concentration
+terms cancel out in the equations and only
+the <i>ratio</i> of the isotopes and their decay constants need be
+considered. These are all known accurately.</p>
+<p>Next, we must decide just what is average present-day
+lead? It isn&rsquo;t enough to go to a lead mine and get a sample,
+because, unfortunately, leads from different mines have
+widely varied isotopic composition&mdash;that is, a different
+mixture of four natural isotopes, &sup2;&#8304;&#8308;Pb, &sup2;&#8304;&#8310;Pb, &sup2;&#8304;&#8311;Pb, and
+&sup2;&#8304;&#8312;Pb&mdash;as a result of their geologic histories. No, lead
+samples from a mine won&rsquo;t do. However, geologists have
+been able to separate lead from recent marine sediments,
+obtained from the ocean bottom, far from land. These are
+of uniform composition, and are good samples of what the
+world&rsquo;s rivers bring into the ocean. Other useful samples
+can be found in plateau basalts, which are enormous bodies
+of dark volcanic rock that make up the bedrock in many
+parts of the world. The lead from these basalts is isotopically
+very much like the lead in the oceans.</p>
+<p>Very well, but how about the lead from the core? Where
+can we hope to find a sample of it? It turns out to be easier
+than you might think. Astronomers believe it highly probable
+that most meteorites are fragments of a former planet
+that broke up for reasons that are not entirely clear. It is
+pretty definite, however, that this protoplanet (or these
+protoplanets, for there may have been more than one) had
+an iron core, and this core (or these cores) is the source
+of the iron meteorites sailing around in space. A large
+meteorite hit the earth not too long ago (geologically
+speaking) and caused the Meteor Crater near Canyon
+Diablo in Arizona.</p>
+<div class="pb" id="Page_30">30</div>
+<div class="img" id="pic_26">
+<img src="images/pgg016.jpg" alt="" width="500" height="429" />
+<p class="caption small"><i>Examining ocean-bottom sediments obtained by lowering a tube-like instrument that brings up a long rod-shaped &ldquo;core&rdquo;, prior to nuclear age determination of the sample.</i></p>
+</div>
+<p>Many fragments of the meteorite iron have been found
+around the crater, and it is reasonable to assume that this
+is the kind of iron we would expect to find in the core of
+the earth. Like the core iron, it is mixed with a little lead,
+which can be isolated and analyzed in a mass spectrometer
+for its isotopic composition. This lead is found to be much
+less contaminated with radiogenic lead, and hence is much
+more primitive than the oldest leads found on earth. Thus,
+meteorites presumably are as close as we can get to true
+primordial lead&mdash;the lead of the time when the earth (and
+the protoplanet) first formed.</p>
+<p>Once these measurements were available, it was easy to
+write the Houtermans equation for present-day and primordial
+leads in this way:</p>
+<div class="center"><table class="inline"><tr><td class="num">(<table class="inline"><tr><td class="num">&sup2;&#8304;&#8310;Pb</td></tr><tr><td class="den">&sup2;&#8304;&#8308;Pb</td></tr></table>) present - (<table class="inline"><tr><td class="num">&sup2;&#8304;&#8310;Pb</td></tr><tr><td class="den">&sup2;&#8304;&#8308;Pb</td></tr></table>) primordial</td></tr><tr><td class="den">(<table class="inline"><tr><td class="num">&sup2;&#8304;&#8311;Pb</td></tr><tr><td class="den">&sup2;&#8304;&#8308;Pb</td></tr></table>) present - (<table class="inline"><tr><td class="num">&sup2;&#8304;&#8311;Pb</td></tr><tr><td class="den">&sup2;&#8304;&#8308;Pb</td></tr></table>) primordial</td></tr></table></div>
+<div class="center">=&nbsp;137.7&nbsp;<table class="inline"><tr><td class="num">(e<sup>&lambda;</sup>238<sup>t</sup>&nbsp;-&nbsp;1)</td></tr><tr><td class="den">(e<sup>&lambda;</sup>235<sup>t</sup>&nbsp;-&nbsp;1)</td></tr></table></div>
+<div class="pb" id="Page_31">31</div>
+<p>The present ratio of &sup2;&sup3;&#8312;U to &sup2;&sup3;&#8309;U is 137.7.</p>
+<dl class="undent"><dd>e = the base of natural logarithms</dd>
+<dd>&lambda; = the <a class="gloss" href="#DecayConstant">DECAY CONSTANT</a> of each isotope of uranium</dd>
+<dd>t = the age of the earth.</dd></dl>
+<p>Substituting the best experimental lead isotope ratios
+into the equation and solving for t, Patterson was able to
+calculate that the earth is 4550 million years (4.55 aeons)
+old. Subsequent calculations based on other procedures
+generally have confirmed that result.</p>
+<h3 id="c11">Analytical Techniques</h3>
+<p>Each method of nuclear age determination involves a
+different sequence of sample preparation. Wood, peat,
+charcoal, bones, or shells are cleaned for carbon-14
+dating in order to remove every trace of possible contamination
+by modern carbon as well as extraneous old
+carbon. Rocks are crushed and ground, minerals are
+separated according to what is needed in any particular
+study, and the desired elements are extracted and separated
+by chemical procedures. Often there may be several
+different ways of doing the same thing; different laboratories
+use different procedures. In every case, however,
+long and complicated procedures must be followed before
+results are obtained from which an age can be calculated.
+There is no such thing as a black box into which you can
+throw a rock and read its age on a dial!</p>
+<p>Of all the elements that are part of the useful parent-daughter
+systems, only potassium is common enough to be
+analyzed by conventional chemical techniques. All the
+other elements, especially the radiogenic ones, are present
+in such small quantities that special processes had to be
+developed to measure them. The most valuable and generally
+used process is called <a class="gloss" href="#IsotopeDilution">ISOTOPE DILUTION</a>.</p>
+<h4>Isotope Dilution</h4>
+<p>This is a process for analyzing an unknown material by
+incorporating uniformly into it a small amount of a radioactive
+test substance and determining how much the tracer
+radioactivity is altered by dilution in the original material.</p>
+<div class="pb" id="Page_32">32</div>
+<p>It works like this: Let&rsquo;s say that we have an unknown
+number of atoms, <i>x</i>, of a given element. The normal
+isotopic composition of this element is accurately known,
+as it is for most elements, and the ratio of two of its
+isotopes can be expressed as A/B. We now add to <i>x</i> a
+known (but usually smaller) amount, <i>c</i>, of the same element.
+This quantity has a drastically different isotopic
+ratio, A&prime;/B&prime;. We mix <i>x</i> and <i>c</i> thoroughly together. The
+ratio A&prime;/B&prime; can have almost any value, but must be different
+from A/B and we must know exactly what it is. (There
+are many ways of determining this chemically, or we can
+use a sample isotope of known composition obtained from
+the U. S. Atomic Energy Commission&rsquo;s Oak Ridge National
+Laboratory at Oak Ridge, Tennessee.) The substance added
+is known colloquially as the <a class="gloss" href="#Spike">SPIKE</a>.</p>
+<p>After the original material and the spike are thoroughly
+mixed we have:</p>
+<p class="center"><i>x</i>(A/B) + <i>c</i>(A&prime;/B&prime;) = (<i>x</i> + <i>c</i>) (A&Prime;B&Prime;)</p>
+<p>in which A&Prime;/B&Prime; will be the ratio of the two isotopes in the
+mixture. With this information in hand, we can perform
+any chemical purification or transfer process with the
+material (see photo on <a href="#Page_22">page 22</a>), without having to worry
+about loss. (Even if 90% of the material should be lost in
+some operation, the isotopic composition would not be
+changed, and that is all we are interested in.) Now we can
+place the material containing the isotopic mixture in a
+<a class="gloss" href="#MassSpectrometer">MASS SPECTROMETER</a>, which will determine the ratio
+A&Prime;/B&Prime;. When we have that, we may substitute the value of
+A&Prime;/B&Prime; in the equation and quickly calculate
+<i>x</i>, the unknown
+concentration of atoms in the original sample.</p>
+<div class="img" id="pic_27">
+<img src="images/pgg017.jpg" alt="" width="500" height="355" />
+<p class="caption small"><i>A large (12-inch) mass spectrometer (at left) in use. Electronic equipment (right) charts results (see <a href="#Page_21">page 21</a>).</i></p>
+</div>
+<div class="pb" id="Page_33">33</div>
+<div class="img" id="pic_28">
+<img src="images/pgg017a.jpg" alt="" width="500" height="194" />
+<p class="caption small"><i>Essential parts of a mass spectrometer. Atoms to be analyzed are changed to ions in the source. Then the ions are accelerated by high voltage, deflected in a magnetic field according to their mass, and the intensity of the separated beams is measured in the collector.</i></p>
+</div>
+<h4>Mass Spectrometry</h4>
+<p>The mass spectrometer measures isotopic abundances
+using a magnetic field to sort electrically charged particles
+into groups according to their masses. It works this
+way: A small drop of material to be analyzed is placed on a
+metal filament and dried. The filament, in its holder, is
+placed inside the mass spectrometer, and heated electrically
+in a vacuum, like the filament in a light bulb. As
+the wire begins to glow, some of the sample begins to
+radiate, or &ldquo;boil off&rdquo;, losing an electron or two in the
+process. In other words, some of the atoms will be changed
+into positive <a class="gloss" href="#Ion">IONS</a>.</p>
+<p>An alternative method is to introduce the sample material
+into the vacuum chamber in the form of a gas (like
+argon, for example), and then bombard the gas with electrons
+<span class="pb" id="Page_34">34</span>
+streaming from a hot filament. The electron stream
+will knock some electrons off the gas molecules and this
+also will produce positive ions. Either process of ion production
+is satisfactory, depending on the problem to be
+tackled, but the mass spectrometers for the two methods
+are naturally quite different.</p>
+<p>Whichever way the ions were produced, they are next
+exposed to a strong electric field, accelerated, and electrostatically
+focused into a beam. These charged particles
+are directed into a magnetic field between the pole faces
+of an electromagnet. The magnet does the analyzing by the
+principle of magnetic deflection that was known to Andr&eacute;
+Ampere and Michael Faraday more than a century ago.
+Any moving electric charge has a magnetic field associated
+with it. This field interacts with the field of the analyzing
+magnet to impress a deflecting force on the charge. The
+force acts at right angles to the direction the charge
+travels and also at right angles to the direction of the
+impressed magnetic field. The pull of this force depends
+only on the electric charge and the speed of each particle:
+A light single-charged particle will be deflected more than
+a heavier particle with the same charge. In this way, the
+ions in the beam are sorted out into a number of separate
+beams, each made up of particles of the same charge/mass
+ratio. Each beam contains one isotope of the original
+material, because isotopes differ on the basis of their
+mass. By adjusting the current in the electromagnet we
+can direct these separate beams into a &ldquo;collector&rdquo; and
+electrically measure their intensity one by one. This gives
+the relative abundance of the separate isotopes in the
+sample.</p>
+<h3 id="c12">Minerals That Can Be Dated</h3>
+<p>Measuring age by one of the long-lived radioisotopes
+requires a closed system. Usually this is some kind of
+crystal formed in a period of time that is short, compared
+to the time that has elapsed since, and that has remained
+unchanged since it formed. Specifically, neither the parent
+isotopes can have been added nor the daughter isotopes
+removed by any process other than radioactive decay.</p>
+<div class="pb" id="Page_35">35</div>
+<p>The earth is a dynamic system, however. Things are
+always changing and moving&mdash;not very rapidly, perhaps,
+but fast enough, in geologic time, to raise mountains and
+shift oceans. Solutions are moving around, dissolving
+something here and depositing it again somewhere else.
+Temperatures are changing as one place is denuded by
+erosion and another area buried under layers of sediment.
+Under such conditions, few systems remain closed. It is
+perhaps surprising that we find any closed systems at all.
+Let us look at a few that are known to be reliable. (They
+are listed in Table I on <a href="#Page_4">page 4</a>.)</p>
+<h4>Potash Feldspar</h4>
+<p>In the early 1950s, when the potassium-argon (parent-daughter)
+method was being developed by scientists at the
+University of Chicago, it was thought that the potash-bearing
+variety of the mineral feldspar would be an ideal
+closed system, because it was usually optically clear and
+free of flaws. This widely shared, logical, and perfectly
+scientific deduction soon turned out to be quite wrong.
+The scientific workers discovered that when feldspar and
+mica from the same rock (and thus of the same age) were
+analyzed side by side, the mica always came out older!
+Investigation showed that feldspar &ldquo;leaked&rdquo; argon (lost
+some of its radiogenic argon) even at room temperature,
+but the mica retained all or nearly all of the argon that
+had been generated in it.</p>
+<h4>Mica</h4>
+<p>With the development of the rubidium-strontium (parent-daughter)
+method by L. T. Aldrich and his co-workers at
+the Carnegie Institution of Washington, came the realization
+that mica was also very useful for this analysis, for it
+usually contains ample rubidium and not much original
+strontium that would mask the presence of the radiogenic
+strontium. As a result, mica, especially black mica (the
+mineral biotite), has enjoyed great popularity as a good and
+easy-to-find closed system.</p>
+<div class="pb" id="Page_36">36</div>
+<div class="img" id="pic_29">
+<img src="images/pgg019.jpg" alt="" width="500" height="626" />
+<p class="caption small"><i>A scientist making adjustments on an &ldquo;argon train&rdquo;, a maze of glass tubing in which argon is released from minerals and purified for analysis.</i></p>
+</div>
+<p>Everything has its limits, and mica is no exception:
+Even mica tends to leak argon at elevated, but still
+relatively low (geologically speaking), temperatures. These
+effects also depend on pressure and other factors, not all
+of which are well known; these elevated temperatures,
+pressures and other conditions of course act to some extent
+on all rocks buried in the earth&rsquo;s crust. It is known
+that at only about 300&deg;C at moderate pressures argon is
+leaked from mica faster than it is being generated in it by
+the decay of radioactive potassium. The temperature
+needed to cause the rapid loss of strontium from mica is
+not much higher. Mica, especially biotite, will recrystallize
+and lose all its radiogenic constituents (argon and strontium)
+at temperatures where many other minerals show
+little or no change.</p>
+<p>That means that we cannot always rely on mica to give
+the date of the <i>original</i> crystallization of a rock&mdash;the time
+when it cooled from a molten state. Instead, mica will tell
+us when the rock <i>last</i> cooled from, say, several hundred
+degrees centigrade, regardless of what may have happened
+to the rock before that. The mica may have been reheated
+as a result of being buried under a few miles of sediment,
+for example. The mica will show when the rock last
+cooled&mdash;in other words, when it came up again.</p>
+<div class="pb" id="Page_37">37</div>
+<h4>Low-Strontium Feldspar</h4>
+<p>In spite of early disappointments with potash feldspar for
+argon dating, some of it is useful for rubidium-strontium
+procedures. It all depends on how much original strontium
+the potash feldspar contains. Most feldspars, unfortunately,
+contain far too much, but rapid screening by X-ray fluorescence
+or flame photometry methods can weed these out
+and identify specimens low enough in original strontium to
+be useful. Otherwise, feldspar is an excellent closed system
+for rubidium and strontium; it remains closed even at
+temperatures high enough to melt many other minerals. It
+is not affected at all by the same degree of heating that will
+drive argon out of biotite. The rubidium-strontium age of
+feldspar usually comes close to the time of original
+crystallization of the rock.</p>
+<p>Obviously, here is a geologically important tool. If we
+find feldspar and biotite in one rock, and if feldspar, tested
+by the rubidium-strontium method gives the same age as
+biotite tested by potassium-argon decay, then we can say
+with confidence that the rock has not been reheated since
+shortly after it crystallized. Conversely, if the biotite
+comes out much younger than the feldspar, we can be sure
+that something <i>has</i> happened to this rock long after it first
+crystallized. Such information is not only valuable to pure
+science&mdash;it can also be useful in locating areas favorable
+for ore prospecting and in other practical ways.</p>
+<h4>Zircon</h4>
+<p>Another very interesting mineral is zircon (a silicate of
+zirconium), one of the accessory minerals found in small
+quantities in many crystalline rocks. Zircon usually occurs
+in very small grains and is heavy and hard, so that it
+can be separated from the other rock without much difficulty,
+even though it may take 100 pounds of rock to supply
+a gram of zircon.</p>
+<p>Zircon usually contains a fair amount of uranium and
+very little lead. It holds radiogenically produced lead well,
+even at relatively high temperatures. But that is not all.
+Even if some of the lead is lost, there is a mathematical
+way of correcting for it. This technique is called <a class="gloss" href="#ConcordiaAnalysis">CONCORDIA ANALYSIS</a>
+<span class="pb" id="Page_38">38</span>
+and was developed by G. W. Wetherill,
+a physicist then at the Carnegie Institution of Washington.
+It is based, again, on the fact that natural uranium has two
+long-lived isotopes&mdash;&sup2;&sup3;&#8312;U and &sup2;&sup3;&#8309;U&mdash;and that the lighter
+one, &sup2;&sup3;&#8309;U, decays faster than the heavier. The daughter
+products of both uranium decay processes are isotopes of
+the same element, lead&mdash;&sup2;&#8304;&#8312;Pb and &sup2;&#8304;&#8311;Pb, respectively.
+Heavy isotopes are not separated to any significant degree
+by chemical processes, so that if radiogenic lead has been
+lost from a system for any reason, the other lead isotopes
+also will have been lost in whatever proportion they were
+present originally.</p>
+<p>If we plot a graph of the radiogenic &sup2;&#8304;&#8310;Pb/&sup2;&sup3;&#8312;U ratio
+against the radiogenic &sup2;&#8304;&#8311;Pb/&sup2;&sup3;&#8309;U ratio for concordant
+(closed) systems <i>of all ages</i>, we obtain the curved line
+shown in the figure below. The curve is the locus of <i>all</i>
+concordant U-Pb ages and is called <i>Concordia</i>. Then if
+we test two or more particular zircons of the same age
+that have lost different amounts of lead, at about the same
+time, the plot of their &sup2;&#8304;&#8310;Pb/&sup2;&sup3;&#8312;U
+ratios against their &sup2;&#8304;&#8311;Pb/&sup2;&sup3;&#8309;U
+ratios will fall on a straight line that is a chord of the
+Concordia curve. The upper intersection of this chord with
+the curve then will mark the true age of the zircons. This
+is an elaborate technique utilizing difficult chemical procedures,
+but it has proved invaluable in solving some
+important geologic problems.</p>
+<div class="img" id="pic_30">
+<img src="images/pgg020.jpg" alt="" width="500" height="404" />
+<p class="caption small"><i>The Concordia curve offers a useful way of analyzing results of age determinations on the mineral zircon.</i></p>
+</div>
+<div class="pb" id="Page_39">39</div>
+<h4>Hornblende</h4>
+<p>The mineral hornblende provides another useful system.
+Hornblende is a complex silicate of sodium, calcium, iron,
+magnesium, and aluminum, and usually contains a few
+tenths of 1% of potassium. It is unusual in that it tenaciously
+retains its radiogenic argon, even at relatively high
+temperatures.</p>
+<h4>Sanidine</h4>
+<p>Still another good system is the rare feldspar, sanidine,
+which is excellent for both potassium-argon and rubidium-strontium
+age determination. Sanidine usually is found in
+volcanic ash falls and has been important in the establishment
+of the geologic time scale, as we shall see.</p>
+<h4>Whole Rocks</h4>
+<p>Finally there is still another way of obtaining a closed
+system by using the whole rock, not just a crystal of a
+single mineral within it. A large body of granite or similar
+rock may contain a number of minerals, some or none of
+which may be closed systems. Yet as long as this body of
+rock remains impermeable to solutions (which in nature
+means mostly to water), no substance will be able to move
+very far in it because diffusion in solids is so slow. Consequently
+it will remain a closed system, as a whole, regardless
+of what happens to the individual mineral grains.</p>
+<p>If we take a piece from near the middle of this body of
+rock and if this piece is much larger than the largest
+constituent grain in it, then we have a fair sample of a
+closed system&mdash;the whole rock. The only difficulty arises
+from the fact that few rocks are sufficiently impermeable
+to solutions to retain argon, and many rocks contain so
+much common strontium that rubidium-strontium analysis
+<span class="pb" id="Page_40">40</span>
+is impractical. Still, we can use the rapid survey methods
+as for feldspar, selecting the few rocks that would be
+useful. This work has been done frequently, and the results
+have been fruitful for rubidium-strontium analysis.
+The whole-rock rubidium-strontium age dates the time
+when the rock became impermeable.</p>
+<h2 id="c13">SOME INTERESTING RESULTS</h2>
+<h3 id="c14">The Old Man from Olduvai</h3>
+<div class="img" id="pic_31">
+<img src="images/pgg021.jpg" alt="" width="500" height="474" />
+<p class="caption small"><i>Fossil skull of Zinjanthropus, nearly 2,000,000 years old, discovered in 1959 by Dr. L. S. B. Leakey in Olduvai Gorge. Accurate dating of this earliest human ancestor was possible by using the potassium-argon method.</i></p>
+</div>
+<p>One of the most talked-about age measurements in
+recent years was the determination of the unexpectedly
+great age of fossil ancestors of man, found by the British
+<span class="pb" id="Page_41">41</span>
+anthropologist, Dr. L. S. B. Leakey, in Olduvai Gorge in
+Tanzania. The measurements were made by Garniss H.
+Curtis and Jack F. Evernden at the University of California
+in Berkeley by the potassium-argon method. The
+age came out a little less than 2 million years, about twice
+as old as it &ldquo;should be&rdquo; in the view of many scientists.
+Human remains of such great antiquity had never been
+found before, and much doubt was raised about the validity
+of the figures.</p>
+<p>Time periods as short as two million years are not easy
+to measure by potassium-argon. The amount of argon produced
+in that time is extremely small, and contamination
+by argon from the air is a serious problem. Still, the
+measurements were repeated, the rocks were studied
+again, and the result did not change: The fossils were still
+about 2 million years old.</p>
+<p>In cases like this, one tries to find some other method to
+check the results in an independent way. After many attempts
+it was discovered that the same rock strata dated
+by potassium-argon also contained some pumice&mdash;a porous
+volcanic glass&mdash;and that this glass was suitable for uranium
+fission-track dating. The measurements were made
+in the General Electric Research Laboratory. What was
+the result? Just about 2 million years!</p>
+<p>When such altogether different techniques give the same
+number, one can have some confidence that the number is
+exact. It would be difficult to imagine a disturbance in
+nature that would cause these unrelated methods to give
+the same wrong number&mdash;in both cases by a factor of two.
+The double check simply means the Olduvai man is 2 million
+years old. There is not much doubt about it.</p>
+<h3 id="c15">The Geologic Time Scale</h3>
+<p>Much of historical geology is based on a relationship
+called the <a class="gloss" href="#LawOfSuperposition">LAW OF SUPERPOSITION</a>. This simply means
+that when some rock formation was placed on top of some
+other formation by natural processes (sedimentation or
+volcanic eruption, for example), the layer on top must be
+younger than the one on the bottom. Such a conclusion may
+now seem obvious, but the concept was not even expressed
+until the very end of the eighteenth century and was still a
+<span class="pb" id="Page_42">42</span>
+matter of scientific controversy when Abraham Lincoln
+was a boy. It was the law of superposition, however, that
+led the early geologists to establish the first geologic time
+scales and to realize the enormous extent of geologic time.</p>
+<div class="img" id="pic_32">
+<img src="images/pgg022.jpg" alt="" width="500" height="115" />
+<p class="caption small"><i>Diagram illustrating the law of superposition. Each rock bed is younger than the strata under it.</i></p>
+</div>
+<p>In essence the system of establishing age by this concept
+is this: Somewhere a large and easily recognized
+layer of sedimentary rock was known. It had a characteristic
+color, texture, gross composition, and overall appearance.
+Let us call it <i>bed M</i>. This bed could be traced
+across the countryside until a place was reached where it
+could be seen that <i>bed M</i> rested on another, different layer
+of rock, which we might call <i>bed L</i>. <i>Bed L</i> could also be
+traced some distance and ultimately could be observed
+resting on a still different stratum, which we shall call
+<i>bed K</i>. Some of these beds had fossils in them, and it was
+eventually realized that rocks with the same kinds of
+fossils are of the same age, even though they may differ in
+other respects&mdash;in color or composition, for instance.</p>
+<p>If <i>bed M</i> was followed in another direction, perhaps a
+point was reached where it dipped down a little, and here,
+was found still another layer&mdash;call it <i>bed N</i>&mdash;on top of <i>M</i>.
+Obviously, the sequence of beds from oldest to youngest
+was <i>K-L-M-N</i>. Their relative ages were now established.
+Over the years, hundreds of geologists described various
+rock layers and identified the fossils in them. By the
+middle of the nineteenth century, this &ldquo;layer-cake&rdquo; structure
+of sedimentary rocks was well-known in western
+Europe. (One may say, parenthetically, that America was
+geologically a vast unknown at that time. Today we know
+much more about the geology of Antarctica than anyone a
+hundred years ago knew about the geology of the United
+States.)</p>
+<div class="pb" id="Page_43">43</div>
+<p>A system of nomenclature for the &ldquo;layer-cake&rdquo; was
+developed and refined. Gradually this nomenclature was
+accepted internationally. Long-range correlations between
+beds of the same age, distant halfway around the globe
+from each other, were made possible as the science of
+<a class="gloss" href="#Paleontology">PALEONTOLOGY</a> developed. The relative age of almost
+any rock containing even poorly preserved fossils could
+be determined anywhere in the world with precision. That
+is, the age of rock layers in relation to one another was
+known. But the real age&mdash;the absolute age&mdash;remained
+unknown until knowledge of radioactivity provided the
+necessary clocks.</p>
+<div class="img" id="pic_33">
+<img src="images/pgg022a.jpg" alt="" width="500" height="368" />
+<p class="caption small"><i>A geologist carefully maps the layers of soil in which ancient flint tools have been found. Exact correlation of the tool-bearing strata with material datable by carbon-14 analysis must be accomplished before the age of the tools can be determined.</i></p>
+</div>
+<p>Even this process wasn&rsquo;t entirely without problems.
+The difficulty lay in the fact that ordinary sedimentary
+rocks (shale, sandstone, and limestone) cannot be dated by
+the usual nuclear methods because they present no suitable
+closed systems. Only some volcanic sediments can be
+<span class="pb" id="Page_44">44</span>
+reliably dated by the mica, feldspar, and zircon they contain;
+but these ancient ashfalls are rare, usually are only a
+few inches thick, and are not easy to identify at the surface
+because they weather quickly to clay. Only about a dozen
+volcanic beds have been accurately dated in North America.
+The time points they established are mainstays of the
+present geologic time scale, but they have had to be
+supplemented by indirect information.</p>
+<div class="img" id="pic_34">
+<img src="images/pgg023.jpg" alt="" width="500" height="359" />
+<p class="caption small"><i>Steeply dipping sandstone strata from the Cretaceous Period near Gallup, New Mexico. This photo, taken in 1901 (note the horse-drawn wagon), was made on an early government survey of Western lands.</i></p>
+</div>
+<div class="img" id="pic_35">
+<img src="images/pgg023a.jpg" alt="" width="500" height="329" />
+<p class="caption small"><i>Fossils of bird tracks in sandstone in Death Valley, California.</i></p>
+</div>
+<div class="pb" id="Page_45">45</div>
+<p>The most important of these indirect time points are
+furnished by what geologists call <a class="gloss" href="#BracketedIntrusive">BRACKETED INTRUSIVES</a>.
+It often happens in geologic history that a mass of
+rock becomes molten at a great depth and forces its way up
+through several layers of sedimentary rocks. The sedimentary
+layers are usually bent and twisted (folded) by the
+upthrust, and where the cooler rock comes in contact with
+the molten mass, cooler material is burned (recrystallized).
+Geologists call that process <a class="gloss" href="#ContactMetamorphism">CONTACT METAMORPHISM</a>
+because the sedimentary rock forms are changed, or metamorphosed,
+to have another form or composition. Contact-metamorphosed
+rocks, in spite of the damage they have
+suffered, may contain recognizable and accurately datable
+fossils. Thereby the metamorphic rock establishes a lower
+limit for the age of the intrusion: It must be younger than
+the fossils in the youngest of the metamorphic rocks it
+touched.</p>
+<p>Now on top of the intrusive rock, we may find another
+sedimentary rock, deposited on top of the intrusive after it
+cooled and was exposed by the erosion of overlying materials,
+perhaps millions of years later. This new sediment
+may also contain fossils and thus furnish an upper limit for
+the age of the intrusion. The measured age of the intrusive
+rock thus can be used to set upper and lower limits on the
+absolute ages of the two sediments. If we are lucky, the
+two sediments will bracket a relatively short interval,
+making our measurement quite precise.</p>
+<div class="img" id="pic_36">
+<img src="images/pgg023b.jpg" alt="" width="500" height="209" />
+<p class="caption small"><i>Idealized sketch of a bracketed intrusive. The igneous (molten) rock must be younger than the sedimentary rock (A) it intrudes, and older than the rock (B) that overlies it. The relative age of the sedimentary beds is known from their fossils.</i></p>
+</div>
+<div class="pb" id="Page_46">46</div>
+<div class="img" id="pic_37">
+<img src="images/pgg024.jpg" alt="" width="500" height="883" />
+<p class="caption small"><i>Facsimile reprint of the famous time scale proposed by Arthur Holmes in 1959.</i></p>
+</div>
+<table class="center">
+<tr><th colspan="3">Time-scale in millions of years</th></tr>
+<tr><th>PERIODS </th><th class="l">Since beginning of period </th><th class="l">Duration of period</th></tr>
+<tr><td class="l">PLEISTOCENE </td><td class="l"> </td><td class="l"><i>ca</i> 1</td></tr>
+<tr><td class="l">.... </td><td class="l"><i>ca</i> 1 </td><td class="l">....</td></tr>
+<tr><td class="l">PLIOCENE </td><td class="l"> </td><td class="l">10</td></tr>
+<tr><td class="l">.... </td><td class="l">11 </td><td class="l">....</td></tr>
+<tr><td class="l">MIOCENE </td><td class="l"> </td><td class="l">14</td></tr>
+<tr><td class="l">.... </td><td class="l">25 </td><td class="l">....</td></tr>
+<tr><td class="l">OLIGOCENE </td><td class="l"> </td><td class="l">15</td></tr>
+<tr><td class="l">.... </td><td class="l">40 </td><td class="l">....</td></tr>
+<tr><td class="l">EOCENE </td><td class="l"> </td><td class="l">20</td></tr>
+<tr><td class="l">.... </td><td class="l">60 </td><td class="l">....</td></tr>
+<tr><td class="l">PALEOCENE </td><td class="l"> </td><td class="l">10</td></tr>
+<tr><td class="l">.... </td><td class="l">70 &plusmn; 2 </td><td class="l">....</td></tr>
+<tr><td class="l"><span class="hst">Upper }</span></td></tr>
+<tr><td class="l">CRETACEOUS </td><td class="l"> </td><td class="l">65</td></tr>
+<tr><td class="l"><span class="hst">Lower }</span></td></tr>
+<tr><td class="l">.... </td><td class="l">135 &plusmn; 5 </td><td class="l">....</td></tr>
+<tr><td class="l"><span class="hst">Upper }</span></td></tr>
+<tr><td class="l">JURASSIC </td><td class="l"> </td><td class="l">45</td></tr>
+<tr><td class="l"><span class="hst">Mid. &amp; Lower }</span></td></tr>
+<tr><td class="l">.... </td><td class="l">180&plusmn; 5 </td><td class="l">....</td></tr>
+<tr><td class="l">TRIASSIC </td><td class="l"> </td><td class="l">45</td></tr>
+<tr><td class="l">.... </td><td class="l">225 &plusmn; 5 </td><td class="l">....</td></tr>
+<tr><td class="l">PERMIAN </td><td class="l"> </td><td class="l">45</td></tr>
+<tr><td class="l">.... </td><td class="l">270 &plusmn; 5 </td><td class="l">....</td></tr>
+<tr><td class="l"><span class="hst">Upper }</span></td></tr>
+<tr><td class="l">CARBONIFEROUS </td><td class="l"> </td><td class="l">80</td></tr>
+<tr><td class="l"><span class="hst">Lower }</span></td></tr>
+<tr><td class="l">.... </td><td class="l">350 &plusmn; 10 </td><td class="l">....</td></tr>
+<tr><td class="l"><span class="hst">Upper }</span></td></tr>
+<tr><td class="l">DEVONIAN </td><td class="l"> </td><td class="l">50</td></tr>
+<tr><td class="l"><span class="hst">Lower }</span></td></tr>
+<tr><td class="l">.... </td><td class="l">400 &plusmn; 10 </td><td class="l">....</td></tr>
+<tr><td class="l">SILURIAN </td><td class="l"> </td><td class="l">40</td></tr>
+<tr><td class="l">.... </td><td class="l">440 &plusmn; 10 </td><td class="l">....</td></tr>
+<tr><td class="l">ORDOVICIAN </td><td class="l"> </td><td class="l">60</td></tr>
+<tr><td class="l">.... </td><td class="l">500 &plusmn; 15 </td><td class="l">....</td></tr>
+<tr><td class="l">CAMBRIAN </td><td class="l"> </td><td class="l">100</td></tr>
+<tr><td class="l">.... </td><td class="l">600 &plusmn; 20 </td><td class="l">....</td></tr>
+</table>
+<div class="pb" id="Page_47">47</div>
+<p>Using measurements made in many laboratories, and interpolating
+between them by using the relative thicknesses
+of sediments, the great British geologist, Arthur Holmes,
+established the time scale that is in general use today.
+His original scale is shown on the preceding page. Small
+changes can be expected to be made in this scale from
+time to time, but major alterations are not likely, except
+perhaps in the Cambrian Epoch where the present data are
+unreliable because they are not complete. (A scale showing
+the epochs or periods as often given now is on <a href="#Page_4">page 4</a>.)</p>
+<h3 id="c16">Precambrian Stratigraphy</h3>
+<p>So far we have talked only about rocks that are of the
+Cambrian Epoch or younger&mdash;rocks that may contain fossils.
+Yet there are vast areas (most of Canada, for example)
+that are covered with rocks older than the Cambrian
+formation. Some Precambrian fossils have been
+found, but they are so rare that they are useless for dating
+the strata containing them. Long-range correlation of
+Precambrian rocks must rely on nuclear measurements.
+Therefore it has been only in the last dozen or so years
+that some order could be established for the Precambrian
+rock sequences. The elaborate Precambrian stratigraphies
+(arrangements of strata in sequence) proposed in the past,
+most of them based on superficial similarities of the rocks
+in one place to those in another place, now have been
+drastically altered and in some cases completely overturned
+by nuclear measurements. We are still far from
+understanding the sequence of all the events in that vast
+span of time we call the Precambrian. Many thousands of
+nuclear age determinations will have to be made to lighten
+the dark corners of our ignorance.</p>
+<div class="img" id="pic_38">
+<img src="images/pgg024a.jpg" alt="" width="500" height="315" />
+<p class="caption small"><i>Folded strata of Precambrian rocks, including limestones and
+shales, in Glacier National Park, Montana.</i></p>
+</div>
+<div class="pb" id="Page_48">48</div>
+<h2 id="c17">AND WHERE DO WE GO FROM HERE?</h2>
+<p>Perhaps we must first realize that we really haven&rsquo;t
+come very far yet. Granted that the age of rocks in many
+parts of the world is now suddenly known&mdash;and that this
+was a total mystery some dozen years ago. Granted that
+enormous strides forward have been made. It&rsquo;s only a
+beginning.</p>
+<p>Vast areas of the world are still geologically unexplored.
+The geologic time scale is still fragmentary and crude.
+Thousands of important geologic questions remain to be
+defined, explored, and answered by nuclear age determination.
+And&mdash;as is inevitable in science&mdash;many of them will
+lead to new questions. It is apparent that dating techniques
+have barely begun to be used and understood by geologists.</p>
+<p>But apart from geologic work, what else is in store? It
+is difficult to predict, but probably the most important
+advance in the next decade or two will come when we obtain
+samples of rock from the moon. Will there be young
+rocks there or will they all be 4550 million years old? Or
+will they perhaps be some other age? The chemical
+composition and nuclear ages of the first moon samples
+will probably be the most important information we can
+hope to obtain from them. These results from the moon
+will contribute enormously to our understanding of the
+processes that formed the earth, made the continents, and
+determined the major features of our world.</p>
+<p>We have a long way to go.</p>
+<div class="pb" id="Page_49">49</div>
+<h2 id="c18">GLOSSARY</h2>
+<p class="book"><b class="ss" id="Aeon">AEON</b>   One billion (10&#8313;) years.</p>
+<p class="book"><b class="ss" id="AlphaDecay">ALPHA DECAY</b>   Radioactive decay with emission of an
+alpha particle.</p>
+<p class="book"><b class="ss" id="AlphaParticle">ALPHA PARTICLE</b>   Essentially the nucleus of helium, composed
+of two neutrons and two protons with double
+positive charge.</p>
+<p class="book"><b class="ss" id="AnticoincidenceRing">ANTICOINCIDENCE RING</b>   A ring of counters connected to
+exclude outside radiation.</p>
+<p class="book"><b class="ss" id="BackgroundCount">BACKGROUND COUNT</b>   The number of impulses per unit
+time registered on a counting instrument when no sample
+is present.</p>
+<p class="book"><b class="ss" id="BetaDecay">BETA DECAY</b>   Radioactive decay with emission of a beta
+particle.</p>
+<p class="book"><b class="ss" id="BetaParticle">BETA PARTICLE</b>   An electron emitted by a nucleus.</p>
+<p class="book"><b class="ss" id="BracketedIntrusive">BRACKETED INTRUSIVE</b>   Igneous rock extending into sedimentary
+rocks that are datable by their fossils.</p>
+<p class="book"><b class="ss" id="ClosedSystem">CLOSED SYSTEM</b>   A system in which the parent material
+radioactively decays into its daughter products and
+nothing is added or removed.</p>
+<p class="book"><b class="ss" id="Common">COMMON</b>   (strontium, lead, etc.) The ordinary element
+present in nature at any one time as distinguished from
+that produced by radioactive decay.</p>
+<p class="book"><b class="ss" id="ConcordiaAnalysis">CONCORDIA ANALYSIS</b>   A mathematical technique to determine
+graphically the age of a material containing
+radiogenic lead by comparing its uranium-to-lead ratio
+with the similar ratio in a closed uranium-lead system.</p>
+<p class="book"><b class="ss" id="ContactMetamorphism">CONTACT METAMORPHISM</b>   A metamorphism genetically
+related to the intrusion of molten masses of rock and
+taking place at or near the contact.</p>
+<p class="book"><b class="ss" id="CosmicRays">COSMIC RAYS</b>   High-energy particles moving in our galaxy.</p>
+<p class="book"><b class="ss" id="Crystal">CRYSTAL</b>   A periodic or regularly repeating arrangement
+of atoms, formed from a single element or compound.</p>
+<p class="book"><b class="ss" id="Daughter">DAUGHTER</b>   A nuclide formed from the radioactive decay
+of another nuclide.</p>
+<p class="book"><b class="ss" id="DecayConstant">DECAY CONSTANT</b>   The number of atoms decaying per
+atom per unit of time (0.693/half-life).</p>
+<p class="book"><b class="ss" id="ElectronCapture">ELECTRON CAPTURE</b>   A nuclear process in which the nucleus
+of an atom captures an electron from one of the
+inner shells.</p>
+<div class="pb" id="Page_50">50</div>
+<p class="book"><b class="ss" id="Electrons">ELECTRONS</b>  Elementary particles with a unit negative
+electrical charge and a mass 1/1837 that of the proton,
+or 9.12 &times; 10&#8315;&sup2;&#8311; gram. Electrons surround the atom&rsquo;s
+positively charged nucleus and determine the atom&rsquo;s
+chemical properties.</p>
+<p class="book"><b class="ss" id="GammaRays">GAMMA RAYS</b>  Electromagnetic radiation from an atomic
+nucleus.</p>
+<p class="book"><b class="ss" id="GeigerCounters">GEIGER COUNTERS</b>  Instruments that count pulses produced
+by radioactivity, consisting of a counting tube with a
+central wire anode, usually filled with a mixture of argon
+and organic vapor.</p>
+<p class="book"><b class="ss" id="HalfLife">HALF-LIFE</b>  The time it takes for half the atoms in a radioactive
+substance to decay.</p>
+<p class="book"><b class="ss" id="Ion">ION</b>  An atom or molecule that has lost or gained one or
+more electrons and is thus electrically charged.</p>
+<p class="book"><b class="ss" id="IsotopeDilution">ISOTOPE DILUTION</b>  An analytical technique involving addition
+of a known amount of an isotopic mixture of abnormal
+composition to the unknown amount of an element
+of normal or known isotopic composition.</p>
+<p class="book"><b class="ss" id="Isotopes">ISOTOPES</b>  Nuclides of the same atomic number but different
+atomic weight. Isotopes of a given element have an
+identical number of protons but different numbers of
+neutrons in their nuclei.</p>
+<p class="book"><b class="ss" id="LawOfSuperposition">LAW OF SUPERPOSITION</b>  Statement that overlying strata
+must be younger than underlying strata if there has been
+no inversion.</p>
+<p class="book"><b class="ss" id="MassSpectrometer">MASS SPECTROMETER</b>  An instrument for separation and
+measurement of isotopes by their mass.</p>
+<p class="book"><b class="ss" id="NetCountingRate">NET COUNTING RATE</b>  Sample counting rate minus background
+counting rate.</p>
+<p class="book"><b class="ss" id="Neutrons">NEUTRONS</b>  Elementary particles in the nucleus having no
+electric charge and the mass of one atomic mass unit.</p>
+<p class="book"><b class="ss" id="Nuclide">NUCLIDE</b>   A species of atom characterized by the constitution
+of its nucleus.</p>
+<p class="book"><b class="ss" id="Original">ORIGINAL</b>   (strontium, lead, etc.) Common strontium, lead,
+etc., taken into a system at the time of its formation.</p>
+<p class="book"><b class="ss" id="Paleontology">PALEONTOLOGY</b>   The study of fossil remains.</p>
+<p class="book"><b class="ss" id="Parent">PARENT</b>   The radioactive element from which a daughter
+nuclide is produced by radioactive decay.</p>
+<div class="pb" id="Page_51">51</div>
+<p class="book"><b class="ss" id="Plumbology">PLUMBOLOGY</b>   The study of the uranium and thorium-lead
+decay systems. The name is derived from the Latin
+name for lead, <i>plumbum</i>.</p>
+<p class="book"><b class="ss" id="Primordial">PRIMORDIAL</b>   Present at the time of the formation of the
+earth.</p>
+<p class="book"><b class="ss" id="ProportionalCounter">PROPORTIONAL COUNTER</b>   An instrument for detecting radiation
+by producing pulses of electrical charge that are
+proportional to the energy of the radiation being measured.
+The design permits use of radiation of a desired
+energy level (within limits), and discrimination against
+other radiation, especially background radiation.</p>
+<p class="book"><b class="ss" id="Protons">PROTONS</b>   Elementary particles with a single positive
+electrical charge and a mass approximately 1837 times
+that of the electron. The atomic number of an atom is
+equal to the number of protons in its nucleus.</p>
+<p class="book"><b class="ss" id="RadioactiveDecay">RADIOACTIVE DECAY</b>   The change of one nuclide to another
+by the emission of charged particles from the nucleus of
+its atom.</p>
+<p class="book"><b class="ss" id="Radioactivity">RADIOACTIVITY</b>   The property of some nuclides to decay by
+themselves into others.</p>
+<p class="book"><b class="ss" id="Radiogenic">RADIOGENIC</b>   Formed as the result of radioactive decay.</p>
+<p class="book"><b class="ss" id="RareEarth">RARE EARTH</b>   Any of the elements from atomic number 57
+(lanthanum) to 71 (lutetium).</p>
+<p class="book"><b class="ss" id="SampleCounter">SAMPLE COUNTER</b>   An instrument into which a sample of
+material can be placed to have its radiation measured.</p>
+<p class="book"><b class="ss" id="SecularEquilibrium">SECULAR EQUILIBRIUM</b>   The production of a radioactive
+substance at a rate equal to its decay.</p>
+<p class="book"><b class="ss" id="SpecificActivity">SPECIFIC ACTIVITY</b>   The number of atoms decaying per unit
+time per unit weight of the total amount being tested.</p>
+<p class="book"><b class="ss" id="Spike">SPIKE</b>   A known amount of an element of unusual isotopic
+composition used in isotope-dilution analysis.</p>
+<p class="book"><b class="ss" id="StatisticalError">STATISTICAL ERROR</b>   The error associated with nuclear
+measurements and arising from the random distribution
+of nuclear events.</p>
+<p class="book"><b class="ss" id="Strata">STRATA</b>   Plural of stratum. A sheet or mass of sedimentary
+rock (formed by deposits of sediments, as from
+ancient seas) of one kind, usually in layers between beds
+or layers of other kinds.</p>
+<div class="pb" id="Page_52">52</div>
+<h2 id="c19">APPENDIX
+<br />Radioactive Decay</h2>
+<p>When a radioactive nucleus disintegrates or decays, the
+resultant remaining nucleus may still be radioactive, and
+sooner or later it also will disintegrate and become still
+another kind of atom. This process continues through a
+series of distinct steps until a stable atom&mdash;one that is
+not radioactive&mdash;is formed. All natural radioactivity in the
+heavy elements proceeds by such a series of steps, and
+the series finally ends with a stable form of lead as its end
+product. In other words, any naturally radioactive heavy
+element eventually becomes nonradioactive lead.</p>
+<p>The nucleus of every atom (except hydrogen) contains
+one or more neutrons and one or more protons. The
+instability of the nuclei of the heavy atoms is related to the
+ratio of the number of neutrons to the number of protons
+in the nuclei. Radioactive decay is, in fact, a way of adjusting
+these ratios. The adjustment can occur in various ways.
+The most common is the emission of alpha particles or
+beta particles.</p>
+<p>An alpha particle is identical with the nucleus of a
+helium atom and has two neutrons and two protons bundled
+together. Loss of an alpha particle from a nucleus lowers
+the mass number (the total of protons and neutrons) of the
+parent nucleus by four and the atomic number (the number
+of protons) by two; the number of neutrons also is reduced
+by two.</p>
+<p>A beta particle is an electron and has a negative electric
+charge. When a beta particle is emitted from a nucleus, the
+nucleus is changed so that it has one more proton (which
+has a positive charge) and one less neutron (which has no
+charge); in effect, a neutron has changed into a proton as
+the nucleus lost a negative charge. Beta decay occurs in
+nuclei with a greater proportion of neutrons than is normal
+for the number of protons. Since beta emission increases
+the proportion of protons, the process raises the atomic
+number of the parent nucleus by one and leaves the mass
+number the same.</p>
+<div class="pb" id="Page_53">53</div>
+<p>Gamma rays are a form of electromagnetic radiation.
+They are emitted when a nucleus shifts from one energy
+state to a lower energy state&mdash;the energy difference
+emerging as the gamma radiation. Gamma emission often
+accompanies alpha or beta emission, but the production of
+gamma rays does not itself alter the atomic number nor
+the mass number of the parent.</p>
+<p>Nuclei also can decay by emission of a positron, which is
+a positively charged electron. When this occurs, the new
+nucleus has one more neutron and one less proton than its
+parent; in effect a proton has become a neutron as the
+nucleus loses a positive charge. Positrons usually are
+emitted by nuclei that have a greater proportion of protons
+than is normal for the number of neutrons.</p>
+<p>Another process&mdash;internal electron conversion&mdash;sometimes
+occurs in connection with gamma-ray emission,
+usually in heavy elements when the gamma-ray energy is
+low. Instead of being emitted directly, the gamma ray
+strikes an orbital electron, knocking the electron out of
+the atom; the gamma ray then disappears. Another electron
+jumps into the &ldquo;hole&rdquo; in the orbit from which the first
+electron was emitted, and this jump&mdash;from a higher to a
+lower energy level&mdash;results in the emission of an X ray
+(which is similar to a gamma ray, but originates in the
+electron orbit region of the atom, not in the nucleus).</p>
+<p>Finally, a nucleus may be altered by electron capture.
+In a nucleus with a low ratio of neutrons to protons, the
+nucleus captures one of its own orbital electrons. This
+immediately combines with a proton to form a new neutron
+and emit a neutrino (a high-energy particle with neither
+mass nor charge). The process increases the neutron-to-proton
+ratio of the nucleus; the daughter has the same
+mass number as the parent, but has an atomic number one
+less than the parent.</p>
+<p>There are three series by which naturally radioactive
+nuclei decay to stable ones: The Uranium Series, the
+Thorium Series, and the Actinium Series. Man-made
+radioactive nuclei decay similarly, with bismuth as the end
+product, via the Neptunium Series. These can be illustrated
+in tabular form and diagrammatically. The Actinium Series
+(Uranium-235 Series), for example, proceeds like this:</p>
+<div class="pb" id="Page_54">54</div>
+<table class="center">
+<tr><th colspan="4">THE URANIUM-235 SERIES</th></tr>
+<tr><th>Element </th><th class="l">Symbol </th><th class="l">Radiation Emitted </th><th class="l">Half-life</th></tr>
+<tr><td class="l">Uranium </td><td class="l">&sup2;&sup3;&#8309;U </td><td class="l">&alpha; </td><td class="l">7.13 &times; 10&#8312; years </td><td></td></tr>
+<tr><td class="l">Thorium </td><td class="l">&sup2;&sup3;&sup1;Th </td><td class="l">&beta; </td><td class="l">25.6 hours</td></tr>
+<tr><td class="l">Protactinium </td><td class="l">&sup2;&sup3;&sup1;Pa </td><td class="l">&alpha; </td><td class="l">3.25 &times; 10&#8308; years</td></tr>
+<tr><td class="l">Actinium<a class="fn" id="fr_16" href="#fn_16">[16]</a> </td><td class="l">&sup2;&sup2;&#8311;Ac </td><td class="l">&beta; (98.8%) and &alpha; (1.2%) </td><td class="l">21.2 years</td></tr>
+<tr><td class="l"><span class="hst">Thorium</span> </td><td class="l">&sup2;&sup2;&#8311;Th </td><td class="l">&alpha; </td><td class="l">18.17 days</td></tr>
+<tr><td class="l"><span class="hst">Francium</span> </td><td class="l">&sup2;&sup2;&sup3;Fr </td><td class="l">&beta; </td><td class="l">22 minutes</td></tr>
+<tr><td class="l">Radium </td><td class="l">&sup2;&sup2;&sup3;Ra </td><td class="l">&alpha; </td><td class="l">11.7 days</td></tr>
+<tr><td class="l">Radon </td><td class="l">&sup2;&sup1;&#8313;Rn </td><td class="l">&alpha; </td><td class="l">4.0 seconds</td></tr>
+<tr><td class="l">Polonium<a class="fn" href="#fn_16">[16]</a> </td><td class="l">&sup2;&sup1;&#8309;Po </td><td class="l">&alpha; (~100%) and &beta; (~5 &times; 10&#8315;&#8308;%) </td><td class="l">1.83 &times; 10&#8315;&sup3; second</td></tr>
+<tr><td class="l"><span class="hst">Lead</span> </td><td class="l">&sup2;&sup1;&sup1;Pb </td><td class="l">&beta; </td><td class="l">36.1 minutes</td></tr>
+<tr><td class="l"><span class="hst">Astatine</span> </td><td class="l">&sup2;&sup1;&#8309;At </td><td class="l">&alpha; </td><td class="l">~10&#8315;&#8308; second</td></tr>
+<tr><td class="l">Bismuth<a class="fn" href="#fn_16">[16]</a> </td><td class="l">&sup2;&sup1;&sup1;Bi </td><td class="l">&alpha; (99.7%) and &beta; (0.3%) </td><td class="l">2.15 minutes</td></tr>
+<tr><td class="l"><span class="hst">Polonium</span> </td><td class="l">&sup2;&sup1;&sup1;Po </td><td class="l">&alpha; </td><td class="l">0.25 second</td></tr>
+<tr><td class="l"><span class="hst">Thallium</span> </td><td class="l">&sup2;&#8304;&#8311;Tl </td><td class="l">&beta; </td><td class="l">4.78 minutes</td></tr>
+<tr><td class="l">Lead </td><td class="l">&sup2;&#8304;&#8311;Pb </td><td class="l">&mdash; </td><td class="l">Stable</td></tr>
+</table>
+<div class="pb" id="Page_55">55</div>
+<div class="img" id="pic_39">
+<img src="images/pgg028.jpg" alt="" width="500" height="756" />
+<p class="caption small">The Uranium-235 Series</p>
+</div>
+<div class="pb" id="Page_56">56</div>
+<p>The Uranium (Uranium-238) Series proceeds like this:</p>
+<table class="center">
+<tr><th colspan="4">THE URANIUM-238 SERIES</th></tr>
+<tr><th>Element </th><th class="l">Symbol </th><th class="l">Radiation </th><th class="l">Half-life</th></tr>
+<tr><td class="l">Uranium </td><td class="l">&sup2;&sup3;&#8312;U </td><td class="l">&alpha; </td><td class="l">4.51 &times; 10&#8313; years</td></tr>
+<tr><td class="l">Thorium </td><td class="l">&sup2;&sup3;&#8308;Th </td><td class="l">&beta; </td><td class="l">24.1 days</td></tr>
+<tr><td class="l">Protactinium<a class="fn" id="fr_17" href="#fn_17">[17]</a> </td><td class="l">&sup2;&sup3;&#8308;Pa </td><td class="l">&beta; </td><td class="l">1.18 minutes</td></tr>
+<tr><td class="l">Uranium </td><td class="l">&sup2;&sup3;&#8308;U </td><td class="l">&alpha; </td><td class="l">2.48 &times; 10&#8309; years</td></tr>
+<tr><td class="l">Thorium </td><td class="l">&sup2;&sup3;&#8304;Th </td><td class="l">&alpha; </td><td class="l">7.6 &times; 10&#8308; years</td></tr>
+<tr><td class="l">Radium </td><td class="l">&sup2;&sup2;&#8310;Ra </td><td class="l">&alpha; </td><td class="l">1.62 &times; 10&sup3; years</td></tr>
+<tr><td class="l">Radon </td><td class="l">&sup2;&sup2;&sup2;Rn </td><td class="l">&alpha; </td><td class="l">3.82 days</td></tr>
+<tr><td class="l">Polonium<a class="fn" id="fr_18" href="#fn_18">[18]</a> </td><td class="l">&sup2;&sup1;&#8312;Po </td><td class="l">&alpha; (99.98%) and &beta; (0.02%) </td><td class="l">3.05 minutes</td></tr>
+<tr><td class="l"><span class="hst">Lead</span> </td><td class="l">&sup2;&sup1;&#8308;Pb </td><td class="l">&beta; </td><td class="l">26.8 minutes</td></tr>
+<tr><td class="l"><span class="hst">Astatine</span> </td><td class="l">&sup2;&sup1;&#8312;At </td><td class="l">&alpha; </td><td class="l">1.3 seconds</td></tr>
+<tr><td class="l">Bismuth<a class="fn" href="#fn_18">[18]</a> </td><td class="l">&sup2;&sup1;&#8308;Bi </td><td class="l">&beta; (99.96%) and &alpha; (0.04%) </td><td class="l">19.7 minutes</td></tr>
+<tr><td class="l"><span class="hst">Polonium</span> </td><td class="l">&sup2;&sup1;&#8308;Po </td><td class="l">&alpha; </td><td class="l">1.6 &times; 10&#8315;&#8308; second</td></tr>
+<tr><td class="l"><span class="hst">Thallium</span> </td><td class="l">&sup2;&sup1;&#8304;Tl </td><td class="l">&beta; </td><td class="l">1.32 minutes</td></tr>
+<tr><td class="l">Lead </td><td class="l">&sup2;&sup1;&#8304;Pb </td><td class="l">&beta; </td><td class="l">22 years</td></tr>
+<tr><td class="l">Bismuth<a class="fn" href="#fn_18">[18]</a> </td><td class="l">&sup2;&sup1;&#8304;Bi </td><td class="l">&beta; (~100%) and &alpha; (~2 &times; 10&#8315;&#8308;%) </td><td class="l">5.0 days</td></tr>
+<tr><td class="l"><span class="hst">Polonium</span> </td><td class="l">&sup2;&sup1;&#8304;Po </td><td class="l">&alpha; </td><td class="l">138.4 days</td></tr>
+<tr><td class="l"><span class="hst">Thallium</span> </td><td class="l">&sup2;&#8304;&#8310;Tl </td><td class="l">&beta; </td><td class="l">4.30 minutes</td></tr>
+<tr><td class="l"><span class="hst">Lead</span> </td><td class="l">&sup2;&#8304;&#8310;Pb </td><td class="l">... </td><td class="l">Stable</td></tr>
+</table>
+<div class="pb" id="Page_57">57</div>
+<div class="img" id="pic_40">
+<img src="images/pgg029.jpg" alt="" width="500" height="736" />
+<p class="caption small">The Uranium-238 Series</p>
+</div>
+<div class="pb" id="Page_58">58</div>
+<h2 id="c20">SUGGESTED REFERENCES</h2>
+<h3 id="c21">Books</h3>
+<p class="book"><i>How Old Is the Earth?</i>, Patrick M. Hurley, Doubleday &amp; Company,
+Inc., Garden City, New York, 1959, 160 pp., $1.25.</p>
+<p class="book"><i>Radiocarbon Dating</i> (second edition), Willard F. Libby, University
+of Chicago Press, Chicago, Illinois, 1955, 175 pp., $5.00 (hardback);
+$1.95 (paperback).</p>
+<p class="book"><i>The Birth and Death of the Sun</i>, George Gamow, The Viking Press,
+New York, 1949, 238 pp., $4.75 (out of print but available through
+libraries), $0.60 (paperback) from the New American Library of
+World Literature, Inc., New York.</p>
+<p class="book"><i>Inside the Nucleus</i>, Irving Adler, The John Day Company, Inc.,
+New York, 1963, 191 pp., $4.95 (hardback); $0.60 (paperback)
+from the New American Library of World Literature, Inc.,
+New York.</p>
+<p class="book"><i>Ages of Rocks, Planets, and Stars</i>, Henry Faul, McGraw-Hill Book
+Company, New York, 1966, 109 pp., $2.45.</p>
+<p class="book"><i>Principles of Geochemistry</i> (second edition), Brian Mason, John
+Wiley &amp; Sons, Inc., New York, 1958, 310 pp., $7.50. (New
+edition due in 1967.)</p>
+<p class="book"><i>Potassium Argon Dating</i>, J. H. Zahringer and O. A. Schaeffer,
+Springer-Verlag New York, Inc., New York, 1966, 250 pp., $12.50.</p>
+<h3 id="c22">Articles</h3>
+<p class="book">A Clock for the Ages: Potassium Argon, Garniss H. Curtis,
+<i>National Geographic Magazine</i>, 120: 590 (October 1961).</p>
+<p class="book">Exploring 1,750,000 Years into Man&rsquo;s Past, L. S. B. Leakey, <i>National
+Geographic Magazine</i>, 120: 564 (October 1961).</p>
+<p class="book">Five-Billion-Year Clock, Patrick M. Hurley, <i>Saturday Evening
+Post</i>, 234: 26 (March 18, 1961).</p>
+<p class="book">Geologic Time Scale, J. Laurence Kulp, <i>Science</i>, 133: 1105
+(April 14, 1961).</p>
+<p class="book">Geology, Reginald A. Daly, <i>Scientific American</i>, 183: 36 (September
+1950).</p>
+<p class="book">Tracks of Charged Particles in Solids, R. L. Fleischer, P. B.
+Price, and R. M. Walker, <i>Science</i>, 149: 383 (July 23, 1965).</p>
+<p class="book">How Old Is It?, Lyman J. Briggs and Kenneth F. Weaver, <i>National
+Geographic Magazine</i>, 114: 234 (August 1958).</p>
+<p class="book">Moving Picture of the Last Ice Age, Richard Foster Flint, <i>Natural
+History</i>, 66: 188 (April 1957).</p>
+<p class="book">Modern Methods for Measurement of Geologic Time, E. J. Zeller,
+<i>Mineral Information Service</i>, 18: 9 (January 1965). Single copies
+are $0.10 from Division of Mines and Geology, Ferry-Building,
+San Francisco, California 94111.</p>
+<p class="book">Fluted Projectile Points: Their Age and Dispersion, C. Vance
+Haynes, Jr., <i>Science</i>, 145: 1408 (September 25, 1964).</p>
+<p class="book">Unraveling the Age of Earth and Man, E. L. Simons, <i>Natural
+History</i>, 76: 52 (February 1967).</p>
+<div class="pb" id="Page_59">59</div>
+<p class="book">Radiocarbon Dating and Archeology in North America, F. Johnson,
+<i>Science</i>, 155: 165 (January 13, 1967).</p>
+<p class="book">Fission-track Dating of Bed I, Olduvai Gorge, R. L. Fleischer and
+others, <i>Science</i>, 146: 72 (April 2, 1965).</p>
+<p class="book">Lead Isotopes and the Age of the Earth, G. R. Tilton and R. H.
+Steiger, <i>Science</i>, 150: 1805 (December 31, 1965).</p>
+<p class="book">Strontium-Rubidium Age of an Iron Meteorite, G. J. Wasserburg
+and others, <i>Science</i>, 150: 1814 (December 31, 1965).</p>
+<div class="pb" id="Page_60">60</div>
+<div class="img" id="pic_41">
+<img src="images/pgg031.jpg" alt="" width="200" height="308" />
+<p class="caption small">THE COVER</p>
+</div>
+<p class="caption">U. S. Geological Survey scientists prepare
+acetylene gas, made from the
+carbon-14 in a geological specimen, in a vacuum line. This gas will be fed into a proportional counter to determine the age of the specimen by its &sup1;&#8308;C count. (See &ldquo;Carbon-14 Counting&rdquo; beginning on <a href="#Page_12">page 12</a>.)</p>
+<div class="img" id="pic_42">
+<img src="images/pgg031a.jpg" alt="" width="500" height="537" />
+<p class="caption small">THE AUTHOR</p>
+</div>
+<p class="caption">Geophysicist Henry Faul, an authority on nuclear dating, is
+professor of Geophysics and chairman of the Department of Geology
+at the University of Pennsylvania, Philadelphia. He holds a
+doctoral degree from the
+Massachusetts Institute of
+Technology, and has taught
+at the Universities of Strasbourg
+and Bern in Europe.
+Dr. Faul was a geophysicist
+with the Manhattan Project
+during World War II, and was
+formerly chief of the Radiation
+Laboratory, U. S. Geological
+Survey, Denver, Colorado.
+For many years he
+was engaged in geological age
+determination work with the
+Geological Survey and the
+Carnegie Institution of Washington
+in Washington, D. C.</p>
+<div class="pb" id="Page_61">61</div>
+<h3 id="c23">PHOTO CREDITS</h3>
+<p>Frontispiece courtesy Anthropology Department, Southern Methodist
+University (SMU)</p>
+<p>Cover photo courtesy U. S. Geological Survey (USGS)</p>
+<table class="center">
+<tr><th>Page</th></tr>
+<tr><td class="l"><a href="#Page_11">11</a> </td><td class="l">USGS</td></tr>
+<tr><td class="l"><a href="#Page_12">12</a> </td><td class="l">USGS</td></tr>
+<tr><td class="l"><a href="#Page_14">14</a>, <a href="#Page_16">16</a>, <a href="#Page_17">17</a> </td><td class="l">Willard F. Libby</td></tr>
+<tr><td class="l"><a href="#Page_18">18</a> </td><td class="l">University of Arizona</td></tr>
+<tr><td class="l"><a href="#Page_21">21</a> </td><td class="l">Massachusetts Institute of Technology</td></tr>
+<tr><td class="l"><a href="#Page_22">22</a> </td><td class="l">Graduate Research Center of the Southwest</td></tr>
+<tr><td class="l"><a href="#Page_23">23</a> </td><td class="l">Graduate Research Center of the Southwest</td></tr>
+<tr><td class="l"><a href="#Page_25">25</a> </td><td class="l">Robert L. Fleischer</td></tr>
+<tr><td class="l"><a href="#Page_26">26</a> </td><td class="l">Perkin-Elmer Corporation</td></tr>
+<tr><td class="l"><a href="#Page_30">30</a> </td><td class="l">University of Texas</td></tr>
+<tr><td class="l"><a href="#Page_32">32</a> </td><td class="l">Graduate Research Center of the Southwest</td></tr>
+<tr><td class="l"><a href="#Page_36">36</a> </td><td class="l">Massachusetts Institute of Technology</td></tr>
+<tr><td class="l"><a href="#Page_40">40</a> </td><td class="l">Des Bartlett, Armand Denis Productions</td></tr>
+<tr><td class="l"><a href="#Page_43">43</a> </td><td class="l">Anthropology Department, SMU</td></tr>
+<tr><td class="l"><a href="#Page_44">44</a> </td><td class="l">USGS</td></tr>
+<tr><td class="l"><a href="#Page_47">47</a> </td><td class="l">USGS</td></tr>
+<tr><td class="l"><a href="#Page_59">59</a> </td><td class="l">Author&rsquo;s photo courtesy Graduate Research Center of the Southwest</td></tr>
+</table>
+<h2 id="c24">Footnotes</h2>
+<div class="fnblock"><div class="fndef"><a class="fn"  id="fn_1" href="#fr_1">[1]</a>Words appearing in <span class="smaller">SMALL CAPITAL LETTERS</span> are defined
+in the Glossary beginning on <a href="#Page_49">page 49</a>.
+</div><div class="fndef"><a class="fn"  id="fn_2" href="#fr_2">[2]</a>The
+process of natural radioactive decay is described in the
+Appendix beginning on <a href="#Page_52">page 52</a>.
+</div><div class="fndef"><a class="fn"  id="fn_3" href="#fr_3">[3]</a>The U. S. War Department program during World War II that
+developed the first nuclear weapons.
+</div><div class="fndef"><a class="fn"  id="fn_4" href="#fr_4">[4]</a>Drawn to scale, the whole age of man is represented by less than the width of the line.
+</div><div class="fndef"><a class="fn"  id="fn_5" href="#fr_5">[5]</a>For more information on the structure of atoms, see <i>Our
+Atomic World</i>, a companion booklet in this series.
+</div><div class="fndef"><a class="fn"  id="fn_6" href="#fr_6">[6]</a>From the <i>Chart of the Nuclides</i>, prepared by David T. Goldman, Knolls Atomic Power Laboratory, August 1964.
+</div><div class="fndef"><a class="fn"  id="fn_7" href="#fr_7">[7]</a>This decay process proceeds in a series of steps, during which 6 alpha particles and 4 beta particles are emitted. (See <a href="#Page_52">Appendix</a>.)
+</div><div class="fndef"><a class="fn"  id="fn_8" href="#fr_8">[8]</a>Named after their creator, John Napier, a Scottish mathematician (1550-1617), who also invented the decimal point.
+</div><div class="fndef"><a class="fn"  id="fn_9" href="#fr_9">[9]</a>It is difficult to determine the half-life of &sup1;&#8308;C exactly. In the
+early days of &sup1;&#8308;C dating, in order not to delay continued work, an
+arbitrary value of 5568 years was chosen and this value is still
+used in calculations.
+</div><div class="fndef"><a class="fn"  id="fn_10" href="#fr_10">[10]</a>This means that uranium decays through successive steps in which the entire series emits eight alpha particles. (See <a href="#Page_52">Appendix</a>.)
+</div><div class="fndef"><a class="fn"  id="fn_11" href="#fr_11">[11]</a>Remember, this enormous period of time is a measure of the <i>rate</i> of spontaneous fission, <i>not</i> of the age of &sup2;&sup3;&#8312;U.
+</div><div class="fndef"><a class="fn"  id="fn_12" href="#fr_12">[12]</a>The rhenium-osmium scheme is shown below the dotted line because the method is still in an early experimental stage and its general utility is not yet established.
+</div><div class="fndef"><a class="fn"  id="fn_13" href="#fr_13">[13]</a>For more on this family of elements, see <i>Rare Earths, The
+Fraternal Fifteen</i>, a companion booklet in this series.
+</div><div class="fndef"><a class="fn"  id="fn_14" href="#fr_14">[14]</a>For a fuller explanation of the fission process, see <i>Our Atomic
+World</i>, another booklet in this series.
+</div><div class="fndef"><a class="fn"  id="fn_15" href="#fr_15">[15]</a>Neutrons that have had their speed reduced by passing through
+a moderator (graphite, for example) which is built into every
+reactor to accomplish this very thing. For more about how this is
+done, see <i>Nuclear Reactors</i> and <i>Research Reactors</i>, companion
+booklets in this series.
+</div><div class="fndef"><a class="fn"  id="fn_16" href="#fr_16">[16]</a>Note that some radionuclides sometimes decay by one method, sometimes by another. For example, 98.8% of the nuclei of actinium-227 emit a beta particle to form thorium-227; the remaining 1.2% emit an alpha particle to form francium-223; both of these daughter products decay to radium-223.
+</div><div class="fndef"><a class="fn"  id="fn_17" href="#fr_17">[17]</a>Some of the protactinium (0.12%) changes by an intermediate step, known as isomeric transition, in which its nucleus shifts to a lower energy state. The process does not alter the remaining parent-daughter progression in the series.
+</div><div class="fndef"><a class="fn"  id="fn_18" href="#fr_18">[18]</a>Undergoes both alpha and beta decay, in definite proportion of decay events, as shown.
+</div>
+</div>
+<div class="pb" id="Page_63">63</div>
+<hr />
+<p class="tb">This booklet is one of the &ldquo;Understanding the Atom&rdquo;
+Series. Comments are invited on this booklet and others
+in the series; please send them to the Division of Technical
+Information, U. S. Atomic Energy Commission, Washington,
+D. C. 20545.</p>
+<p>Published as part of the AEC&rsquo;s educational assistance
+program, the series includes these titles:</p>
+<dl class="undent"><dt><i>Accelerators</i></dt>
+<dt><i>Animals in Atomic Research</i></dt>
+<dt><i>Atomic Fuel</i></dt>
+<dt><i>Atomic Power Safety</i></dt>
+<dt><i>Atoms at the Science Fair</i></dt>
+<dt><i>Atoms in Agriculture</i></dt>
+<dt><i>Atoms, Nature, and Man</i></dt>
+<dt><i>Careers in Atomic Energy</i></dt>
+<dt><i>Computers</i></dt>
+<dt><i>Controlled Nuclear Fusion</i></dt>
+<dt><i>Cryogenics, The Uncommon Cold</i></dt>
+<dt><i>Direct Conversion of Energy</i></dt>
+<dt><i>Fallout From Nuclear Tests</i></dt>
+<dt><i>Food Preservation by Irradiation</i></dt>
+<dt><i>Genetic Effects of Radiation</i></dt>
+<dt><i>Index to the UAS Series</i></dt>
+<dt><i>Lasers</i></dt>
+<dt><i>Microstructure of Matter</i></dt>
+<dt><i>Neutron Activation Analysis</i></dt>
+<dt><i>Nondestructive Testing</i></dt>
+<dt><i>Nuclear Clocks</i></dt>
+<dt><i>Nuclear Energy for Desalting</i></dt>
+<dt><i>Nuclear Power and Merchant Shipping</i></dt>
+<dt><i>Nuclear Power Plants</i></dt>
+<dt><i>Nuclear Propulsion for Space</i></dt>
+<dt><i>Nuclear Reactors</i></dt>
+<dt><i>Nuclear Terms, A Brief Glossary</i></dt>
+<dt><i>Our Atomic World</i></dt>
+<dt><i>Plowshare</i></dt>
+<dt><i>Plutonium</i></dt>
+<dt><i>Power from Radioisotopes</i></dt>
+<dt><i>Power Reactors in Small Packages</i></dt>
+<dt><i>Radioactive Wastes</i></dt>
+<dt><i>Radioisotopes and Life Processes</i></dt>
+<dt><i>Radioisotopes in Industry</i></dt>
+<dt><i>Radioisotopes in Medicine</i></dt>
+<dt><i>Rare Earths</i></dt>
+<dt><i>Reading Resources in Atomic Energy</i></dt>
+<dt><i>Research Reactors</i></dt>
+<dt><i>SNAP, Nuclear Space Reactors</i></dt>
+<dt><i>Sources of Nuclear Fuel</i></dt>
+<dt><i>Space Radiation</i></dt>
+<dt><i>Synthetic Transuranium Elements</i></dt>
+<dt><i>The Atom and the Ocean</i></dt>
+<dt><i>The Chemistry of the Noble Gases</i></dt>
+<dt><i>The First Reactor</i></dt>
+<dt><i>Whole Body Counters</i></dt>
+<dt><i>Your Body and Radiation</i></dt></dl>
+<p>A single copy of any one booklet, or of no more than three
+different booklets, may be obtained free by writing to:</p>
+<p class="center"><b>USAEC, P.O. BOX 62, OAK RIDGE, TENNESSEE</b><span class="hst"> <b>37830</b></span></p>
+<p>Complete sets of the series are available to school and
+public librarians, and to teachers who can make them
+available for reference or for use by groups. Requests
+should be made on school or library letterheads and indicate
+the proposed use.</p>
+<p>Students and teachers who need other material on specific
+aspects of nuclear science, or references to other
+reading material, may also write to the Oak Ridge address.
+Requests should state the topic of interest exactly, and the
+use intended.</p>
+<p>In all requests, include &ldquo;Zip Code&rdquo; in return address.</p>
+<p class="tbcenter"><span class="smaller">Printed in the United States of America
+<br />USAEC Division of Technical Infection Extension, Oak Ridge, Tennessee</span></p>
+<h2 id="c25">Transcriber&rsquo;s Notes</h2>
+<ul><li>Retained publication information from the printed edition: this eBook is public-domain in the country of publication.</li>
+<li>In the text versions only, text in italics is delimited by _underscores_.</li>
+<li>In the text versions only, superscript text is preceded by ^caret.</li>
+<li>In the text versions only, subscript text is preceded by _underscore.</li></ul>
+
+</body>
+</html>
